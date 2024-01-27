@@ -1,0 +1,114 @@
+baseURL: "https://blog.hasban.site/"
+title: "Hasban Blog"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: "G-RXWQ12Y80H"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "Hasban Fardani"
+  description: "Hasban Fardani personal site"
+  keywords: [Blog, Portfolio, PaperMod, Hugo, Software Engineer, Web Developer, Fullstack Developer, Programmer]
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/hfcode192x192.png"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Hasban"
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hasban Fardani"
+    Content: > 
+      Backend Developer | Frontend Developer | Mobile Developer | Fullstack Developer
+      
+      - Currently study at SMKN 11 Bandung
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/hasban-fardani/"
+    - name: github
+      url: "https://github.com/"
+    - name: instagram
+      url: "https://www.instagram.com/hasban_fardani/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-RXWQ12Y80H"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 30
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 40
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
