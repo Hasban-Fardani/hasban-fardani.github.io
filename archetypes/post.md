@@ -1,4 +1,4 @@
----
++++
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 slug:
@@ -12,4 +12,4 @@ cover:
   relative: false
 showtoc: true
 draft: true
----
++++

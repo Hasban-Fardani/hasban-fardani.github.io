@@ -1,25 +1,35 @@
-baseURL: "https://blog.hasban.site/"
-title: "Hasban Blog"
+baseURL: "https://hasban.site/"
+title: "Hasban fardani"
 paginate: 5
 theme: PaperMod
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
+enableEmoji: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+mainSections: ["blog"]
 
-googleAnalytics: "G-RXWQ12Y80H"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+copyright: "**[Hasban Fardani](https://hasban.site)**"
 
 minify:
   disableXML: true
   minifyOutput: true
 
 params:
+  mainSections: ["blog"]
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Hasban Fardani"
   description: "Hasban Fardani personal site"
   keywords: [Blog, Portfolio, PaperMod, Hugo, Software Engineer, Web Developer, Fullstack Developer, Programmer]
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/hfcode.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -39,10 +49,10 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/hfcode192x192.png"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Hasban"
@@ -52,7 +62,7 @@ params:
   homeInfoParams:
     Title: "Hasban Fardani"
     Content: > 
-      Backend Developer | Frontend Developer | Mobile Developer | Fullstack Developer
+      Fullstack Developer | Software Engineer | Mobile Developer 
       
       - Currently study at SMKN 11 Bandung
 
@@ -60,13 +70,9 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/hasban-fardani/"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Hasban-Fardani/"
     - name: instagram
       url: "https://www.instagram.com/hasban_fardani/"
-
-  analytics:
-    google:
-      SiteVerificationTag: "G-RXWQ12Y80H"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -84,6 +90,7 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: about
@@ -102,9 +109,17 @@ menu:
       name: Blog
       url: /blog/
       weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     # anchorLineNos: true
