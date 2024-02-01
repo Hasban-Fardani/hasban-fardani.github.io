@@ -10,7 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 mainSections: 
-  - blog
+  - posts
 
 outputs:
   home:
@@ -26,7 +26,8 @@ minify:
 
 params:
   mainSections: 
-    - blog
+    - posts
+    - 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Hasban Fardani"
   description: "Hasban Fardani personal site"
@@ -109,7 +110,7 @@ menu:
       weight: 30
     - identifier: blog
       name: Blog
-      url: /blog/
+      url: /posts/
       weight: 40
     - identifier: search
       name: Search

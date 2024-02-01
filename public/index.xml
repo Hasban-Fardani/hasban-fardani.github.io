@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hasban fardani</title>
+    <link>https://hasban.site/</link>
+    <description>Recent content on Hasban fardani</description>
+    <image>
+      <title>Hasban fardani</title>
+      <url>https://hasban.site/hfcode.png</url>
+      <link>https://hasban.site/hfcode.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
+    <lastBuildDate>Wed, 31 Jan 2024 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://hasban.site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selamat Datang di Blog</title>
+      <link>https://hasban.site/posts/welcome-to-my-blog/</link>
+      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://hasban.site/posts/welcome-to-my-blog/</guid>
+      <description>blog pribadi</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://hasban.site/posts/how-to-give-symphaty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban.site/posts/how-to-give-symphaty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About Hasban Fardani</title>
+      <link>https://hasban.site/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban.site/about/</guid>
+      <description>Halo nama saya Hasban Fardani saat ini sedang bersekolah di SMKN 11 Bandung jurusan Rekayasa Perangkat Lunak (RPL). Saya juga aktif di komunitas IT SMK dev, disana saya mendapatkan banyak sekali hal baru selain dari yang saya pelajari di Sekolah</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://hasban.site/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban.site/projects/</guid>
+      <description>Kumpulan project - project yang sudah saya buat</description>
+    </item>
+  </channel>
+</rss>

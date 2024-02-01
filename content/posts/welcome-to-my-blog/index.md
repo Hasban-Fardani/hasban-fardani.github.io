@@ -1,7 +1,7 @@
 ---
-author: "Hasban Fardani"
 title: "Selamat Datang di Blog"
-date: "2024-01-28"
+author: "Hasban Fardani"
+date: 2024-01-31T11:30:03+00:00
 description: "blog pribadi"
 summary: "Selamat datang di blog pribadi saya"
 tags: ["markdown", "syntax", "code", "gist"]
