@@ -12,4 +12,4 @@ TocOpen: true
 draf: false
 ---
 
-Hai
+Halo selamat datang di blog pribadi saya, disini saya akan menulis tentang berbagai hal dalam dunia teknologi khususnya pemrogramman. Oiya sebelumnya perkenalkan nama saya Hasban Fardani, saat ini saya masih bersekolah di SMKN 11 Bandung kelas 11 jurusan RPL (Rekayasa Perangkat Lunak). Hobi saya adalah nonton anime, baca manga, dan ngoding. 
