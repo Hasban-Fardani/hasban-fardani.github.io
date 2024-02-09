@@ -78,9 +78,10 @@ params:
       url: "https://www.instagram.com/hasban_fardani/"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInHomePage: true # hide only in home page
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # for search
   # https://fusejs.io/api/options.html
