@@ -1,5 +1,6 @@
 ---
 title: "Archievement"
 url: "/archievement/"
-summary: archievements
+summary: Pencapaian yang pernah saya raih
 ---
+
