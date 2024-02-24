@@ -24,6 +24,7 @@ minify:
   disableXML: true
   minifyOutput: true
 
+googleAnalytics: G-XMMKCMKZKP
 params:
   mainSections: 
     - posts
@@ -49,13 +50,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
     favicon: "/hfcode192x192.png"
-    # favicon16x16: "<link / abs url>"
-    # favicon32x32: "<link / abs url>"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Hasban"
@@ -78,10 +73,10 @@ params:
       url: "https://www.instagram.com/hasban_fardani/"
 
   cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInHomePage: true # hide only in home page
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+    hidden: false 
+    hiddenInHomePage: true 
+    hiddenInList: false 
+    hiddenInSingle: false 
 
   # for search
   # https://fusejs.io/api/options.html
