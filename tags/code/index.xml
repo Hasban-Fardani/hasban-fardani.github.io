@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Hasban fardani</title>
+    <link>https://hasban.site/tags/code/</link>
+    <description>Recent content in Code on Hasban fardani</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
+    <lastBuildDate>Wed, 31 Jan 2024 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://hasban.site/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selamat Datang di Blog</title>
+      <link>https://hasban.site/posts/welcome-to-my-blog/</link>
+      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://hasban.site/posts/welcome-to-my-blog/</guid>
+      <description>Selamat datang di blog pribadi saya</description>
+    </item>
+  </channel>
+</rss>
