@@ -4,6 +4,11 @@
     <title>Code on Hasban fardani</title>
     <link>https://hasban.site/tags/code/</link>
     <description>Recent content in Code on Hasban fardani</description>
+    <image>
+      <title>Hasban fardani</title>
+      <url>https://hasban.site/hfcode.png</url>
+      <link>https://hasban.site/hfcode.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
@@ -14,7 +19,7 @@
       <link>https://hasban.site/posts/welcome-to-my-blog/</link>
       <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
       <guid>https://hasban.site/posts/welcome-to-my-blog/</guid>
-      <description>Selamat datang di blog pribadi saya</description>
+      <description>blog pribadi</description>
     </item>
   </channel>
 </rss>
