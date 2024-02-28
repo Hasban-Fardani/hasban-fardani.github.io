@@ -8,6 +8,7 @@
     --theme: #09090b;
     --entry: #1a1a1f;
     --color: #fff;
+    --primary: #fff;
 }
 
 .profile .profile_inner {
@@ -21,4 +22,11 @@
 #menu {
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media only screen and (max-width: 500px){
+    #menu {
+        display: none !important;
+    }
+    
 }
