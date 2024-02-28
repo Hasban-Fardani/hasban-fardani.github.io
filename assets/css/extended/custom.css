@@ -1,0 +1,19 @@
+:root {
+    --code-bg: #f4f4f4;
+    --tertiary: #212121;
+    --color: #fff;
+}
+
+.dark {
+    --theme: #09090b;
+    --entry: #1a1a1f;
+    --color: #fff;
+}
+
+.profile .profile_inner {
+    padding: 0 10px;
+}
+
+.button {
+    color: var(--color);
+}

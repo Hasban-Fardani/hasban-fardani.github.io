@@ -9,19 +9,19 @@ cover:
   image: /images/halamanHugo.png
   alt: "website official Hugo"
   caption: "website official [hugo](https://gohugo.io/)"
-  relative: false
+  relative: true
 showtoc: true
 draft: false
 ---
 
-# Apa Itu Hugo
+## Apa Itu Hugo
 Hugo dibuat menggunakan bahasa pemrogramman Go oleh Steve Francia di tahun 2015 dan sekarang dikembangkan bersama oleh Bjørn Erik Pedersen dan kontributor lainnya. Hugo mirip dengan [jekyll](https://jekyllrb.com/) dan [11ty](https://www.11ty.dev/). Karna menggunakan go performa dari hugo sangatlah tinggi, ia bisa membuat sebuah page hanya dalam sepersekian milisecond. Gila ga tuh, bayangin kalian punya blog yang udh 10.000 postingan lebih pas dibuild cuman butuh sekitar 2 detik! dan outpunya adalah file HTML jadi ga perlu bayar untuk tempat hosting karena github pages saja sudah cukup.
 
 Namun bukan karena performa, hugo memiliki fitur **CMS** atau _Content Management System_ yang sangat powerfull, kamu hanya cukup menulis dalam format markdown lalu hugo akan otomatis mengkonvert ke file html dengan data dinamis didalamnya. 
 
 Hugo juga memiliki fitur - fitur keren lainnya seperti taxonomi, internalization, 
 
-# Contoh website yang menggunakan HUGO
+## Contoh website yang menggunakan HUGO
 1. [cloudflare documentation](https://developers.cloudflare.com/)
 2. [fireship.io](https://fireship.io/)
 3. [petanikode.com](https://www.petanikode.com/)
