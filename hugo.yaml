@@ -9,8 +9,8 @@ enableEmoji: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-mainSections: 
-  - posts
+# mainSections: 
+#   - posts
 
 outputs:
   home:
@@ -25,6 +25,94 @@ minify:
   minifyOutput: true
 
 googleAnalytics: G-XMMKCMKZKP
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+    menu:
+      main:
+      - identifier: cv
+        name: CV
+        url: /
+        weight: 10
+      - identifier: about
+        name: About
+        url: /about/
+        weight: 20
+      - identifier: projects
+        name: Projects
+        url: /projects/
+        weight: 30
+      - identifier: achievements
+        name: Achievements
+        url: /achievements/
+        weight: 40
+      - identifier: posts
+        name: Posts
+        url: /posts/
+        weight: 50
+      - identifier: search
+        name: Search
+        url: /search/
+        weight: 60
+
+  id:
+    languageName: ":id:"
+    weight: 2
+    title: Hasban Fardani
+    taxonomies:
+      category: IDcategories
+      tag: IDtags
+      series: IDseries
+    menu:
+      main:
+      - identifier: cv
+        name: CV
+        url: /
+        weight: 10
+      - identifier: about
+        name: Tentang
+        url: /about/
+        weight: 20
+      - identifier: projects
+        name: Proyek
+        url: /projects/
+        weight: 30
+      - identifier: archievement
+        name: Prestasi
+        url: /achievements/
+        weight: 40
+      - identifier: posts
+        name: Post
+        url: /posts/
+        weight: 50
+      - identifier: search
+        name: Cari
+        url: /search/
+        weight: 60
+
+    # custom params for each language should be under [langcode].parms - hugo v0.120.0
+    params:
+      languageAltTitle: Indonesia
+      profileMode:
+        enabled: true
+        title: "Hasban Fardani" 
+        subtitle: >
+          Seorang software developer yang suka belajar mengenai teknologi dan berbagi pengetahuan.
+        imageUrl: "" # optional
+        imageTitle: "My Profile" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+          - name: CV
+            url: "/"
+          - name: Projects
+            url: "/projects"
+
 params:
   profileMode:
     enabled: true
@@ -97,10 +185,14 @@ params:
 
 menu:
   main:
+    - identifier: cv
+      name: CV
+      url: /
+      weight: 10
     - identifier: about
       name: About
       url: /about/
-      weight: 10
+      weight: 20
     - identifier: projects
       name: Projects
       url: /projects/

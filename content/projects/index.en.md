@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: single
-description: This page showcase a list projects developed by me and or with my team.
+description: This page showcase a list projects developed by me or with my team.
 ShowToc: true
 TocOpen: true
 ---
@@ -15,7 +15,7 @@ Item management for schools that simplifies the process of collecting, submittin
 <hr>
 
 ## Sarpras UI
-frontend only for sarpras app develop using nuxt, tailwindcss and shadcn-vue
+frontend for sarpras app develop using nuxt, tailwindcss and shadcn-vue
 
 - view: [web](https://sarpras-ui.vercel.app)
 - source: [github](https://github.com/Hasban-Fardani/sapras-shadcnUI)

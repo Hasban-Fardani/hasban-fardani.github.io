@@ -17,3 +17,8 @@
 .button {
     color: var(--color);
 }
+
+#menu {
+    flex-wrap: wrap;
+    justify-content: center;
+}
