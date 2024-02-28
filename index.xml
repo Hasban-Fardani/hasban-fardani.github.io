@@ -12,22 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
-    <lastBuildDate>Thu, 08 Feb 2024 16:51:59 +0700</lastBuildDate>
     <atom:link href="https://hasban.site/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo Static Web Generator Tercepat</title>
-      <link>https://hasban.site/posts/hugo-static-web-generator-tercepat/</link>
-      <pubDate>Thu, 08 Feb 2024 16:51:59 +0700</pubDate>
-      <guid>https://hasban.site/posts/hugo-static-web-generator-tercepat/</guid>
-      <description>Hugo framework SSG tercepat</description>
-    </item>
-    <item>
-      <title>Selamat Datang di Blog</title>
-      <link>https://hasban.site/posts/welcome-to-my-blog/</link>
-      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
-      <guid>https://hasban.site/posts/welcome-to-my-blog/</guid>
-      <description>blog pribadi</description>
-    </item>
     <item>
       <title>About Me</title>
       <link>https://hasban.site/about/</link>
@@ -39,17 +24,17 @@ Design and develop user interfaces that are intuitive and visually appealing. Bu
     </item>
     <item>
       <title>Archievement</title>
-      <link>https://hasban.site/archievement/</link>
+      <link>https://hasban.site/achievements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hasban.site/archievement/</guid>
-      <description>Pencapaian yang pernah saya raih</description>
+      <guid>https://hasban.site/achievements/</guid>
+      <description>My archievements</description>
     </item>
     <item>
       <title>Projects</title>
       <link>https://hasban.site/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hasban.site/projects/</guid>
-      <description>This page showcase a list projects developed by me and or with my team.</description>
+      <description>This page showcase a list projects developed by me or with my team.</description>
     </item>
   </channel>
 </rss>

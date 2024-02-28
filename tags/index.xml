@@ -12,35 +12,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
-    <lastBuildDate>Wed, 31 Jan 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://hasban.site/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Code</title>
-      <link>https://hasban.site/tags/code/</link>
-      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
-      <guid>https://hasban.site/tags/code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gist</title>
-      <link>https://hasban.site/tags/gist/</link>
-      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
-      <guid>https://hasban.site/tags/gist/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>https://hasban.site/tags/markdown/</link>
-      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
-      <guid>https://hasban.site/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Syntax</title>
-      <link>https://hasban.site/tags/syntax/</link>
-      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
-      <guid>https://hasban.site/tags/syntax/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

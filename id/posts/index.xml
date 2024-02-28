@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hasban Fardani</title>
+    <link>https://hasban.site/id/posts/</link>
+    <description>Recent content in Posts on Hasban Fardani</description>
+    <image>
+      <title>Hasban Fardani</title>
+      <url>https://hasban.site/hfcode.png</url>
+      <link>https://hasban.site/hfcode.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
+    <lastBuildDate>Thu, 08 Feb 2024 16:51:59 +0700</lastBuildDate>
+    <atom:link href="https://hasban.site/id/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Static Web Generator Tercepat</title>
+      <link>https://hasban.site/id/posts/hugo-static-web-generator-tercepat/</link>
+      <pubDate>Thu, 08 Feb 2024 16:51:59 +0700</pubDate>
+      <guid>https://hasban.site/id/posts/hugo-static-web-generator-tercepat/</guid>
+      <description>Hugo framework SSG tercepat</description>
+    </item>
+    <item>
+      <title>Selamat Datang di Blog</title>
+      <link>https://hasban.site/id/posts/welcome-to-my-blog/</link>
+      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://hasban.site/id/posts/welcome-to-my-blog/</guid>
+      <description>blog pribadi</description>
+    </item>
+  </channel>
+</rss>

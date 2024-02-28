@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hasban fardani</title>
-    <link>https://hasban.site/categories/</link>
-    <description>Recent content in Categories on Hasban fardani</description>
+    <title>Idtags on Hasban Fardani</title>
+    <link>https://hasban.site/id/idtags/</link>
+    <description>Recent content in Idtags on Hasban Fardani</description>
     <image>
-      <title>Hasban fardani</title>
+      <title>Hasban Fardani</title>
       <url>https://hasban.site/hfcode.png</url>
       <link>https://hasban.site/hfcode.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>id</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
-    <atom:link href="https://hasban.site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hasban.site/id/idtags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

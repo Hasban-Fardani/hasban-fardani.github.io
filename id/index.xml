@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hasban Fardani</title>
+    <link>https://hasban.site/id/</link>
+    <description>Recent content on Hasban Fardani</description>
+    <image>
+      <title>Hasban Fardani</title>
+      <url>https://hasban.site/hfcode.png</url>
+      <link>https://hasban.site/hfcode.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
+    <lastBuildDate>Thu, 08 Feb 2024 16:51:59 +0700</lastBuildDate>
+    <atom:link href="https://hasban.site/id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Static Web Generator Tercepat</title>
+      <link>https://hasban.site/id/posts/hugo-static-web-generator-tercepat/</link>
+      <pubDate>Thu, 08 Feb 2024 16:51:59 +0700</pubDate>
+      <guid>https://hasban.site/id/posts/hugo-static-web-generator-tercepat/</guid>
+      <description>Hugo framework SSG tercepat</description>
+    </item>
+    <item>
+      <title>Selamat Datang di Blog</title>
+      <link>https://hasban.site/id/posts/welcome-to-my-blog/</link>
+      <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://hasban.site/id/posts/welcome-to-my-blog/</guid>
+      <description>blog pribadi</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://hasban.site/id/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban.site/id/about/</guid>
+      <description>Hi I&amp;rsquo;m Hasban Fardani, a passionate Fullstack Developer with a focus on crafting high-performance and user-friendly web applications using Javascript, PHP, Python and Go. I&amp;rsquo;m driven by a constant desire to learn and explore new technologies, and I enjoy sharing my knowledge with others.
+My technical skills encompass both front-end and back-end development, allowing me to:
+Design and develop user interfaces that are intuitive and visually appealing. Build robust and scalable web applications.</description>
+    </item>
+    <item>
+      <title>Archievement</title>
+      <link>https://hasban.site/id/achievements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban.site/id/achievements/</guid>
+      <description>Pencapaian yang pernah saya raih</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://hasban.site/id/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban.site/id/projects/</guid>
+      <description>Halaman ini berisi kumpulan - kumpulan project yang telah saya buat</description>
+    </item>
+  </channel>
+</rss>
