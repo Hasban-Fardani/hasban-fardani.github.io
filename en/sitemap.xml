@@ -53,6 +53,16 @@
                 />
   </url><url>
     <loc>https://hasban.site/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban.site/id/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban.site/search/"
+                />
   </url><url>
     <loc>https://hasban.site/tags/</loc>
   </url>
