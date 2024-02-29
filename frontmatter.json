@@ -51,5 +51,8 @@
       "title": "posts",
       "path": "[[workspace]]/content/posts"
     }
-  ]
+  ],
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.preview.host": "http://localhost:1313"
 }
