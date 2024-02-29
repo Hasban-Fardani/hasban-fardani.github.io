@@ -31,8 +31,9 @@
 
 @media only screen and (max-width: 500px){
     #menu {
-        opacity: 0;
+        display: none;
         position: relative;
+        z-index: 10;
         top: -200px;
         transition: opacity 0.5s;
     }
@@ -42,22 +43,20 @@
     }
 
     .open {
-        /* display: flex !important; */
+        display: flex !important;
         flex-direction: column;
-        opacity: 1 !important;
         justify-content: center;
         align-items: center;
         width: 100%;
         top: 0 !important;
         left: 0;
-        z-index: 10;
-        background-color: #f4f4f4;
+        background-color: var(--entry);
         text-align: center;
         overflow: hidden;
     }
 
     .open a {
-        color: var(--theme);
+        color: var(--primary);
     }
 
     .open li {

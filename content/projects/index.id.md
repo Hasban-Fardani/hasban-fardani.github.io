@@ -17,7 +17,7 @@ Aplikasi sistem manajemen sarana prasarana sekolah yang mempermudah proses penca
 ## Sarpras UI
 frontend untuk aplikasi sarpras dibuat dengan nuxt js, tailwindcss dan vue shadcn-ui
 
-![sarpras ui dashboard](./porfolio/sarpras-ui-dashboard.png)
+![sarpras ui dashboard](/portfolio/sarpras-ui-dashboard.png)
 
 - lihat: [web](https://sarpras-ui.vercel.app)
 - sumber: [github](https://github.com/Hasban-Fardani/sapras-shadcnUI)
@@ -26,7 +26,7 @@ frontend untuk aplikasi sarpras dibuat dengan nuxt js, tailwindcss dan vue shadc
 ## Liga SMK Slicing brawl
 Submission saya di lomba [Liga SMK](https://smkcoding.id/program/liga-smk) tahap 1 (slicing brawl)
 
-![liga smk slicing brawl web result](/porfolio/liga-smk-2023-slicing-brawl.png)
+![liga smk slicing brawl web result](/portfolio/liga-smk-2023-slicing-brawl.png)
 
 - lihat: [web](https://hasban-fardani.github.io/liga-smk-slicing-brawl/)
 - sumber: [github](https://github.com/Hasban-Fardani/liga-smk-slicing-brawl)
@@ -36,7 +36,7 @@ Submission saya di lomba [Liga SMK](https://smkcoding.id/program/liga-smk) tahap
 ## Simple Laravel TodoList
 sebuah aplikasi todo list simple dibuat mengguanakan [laravel](https://themes.gohugo.io/themes/hugo-papermod/), [tailwind](https://tailwindcss.com/) dan [daisyui](https://daisyui.com/)
 
-![simple laravel todolist app](/porfolio/simple-laravel-todolist.png)
+![simple laravel todolist app](/portfolio/simple-laravel-todolist.png)
 
 sumber: [github](https://github.com/Hasban-Fardani/laravel-todo-list)
 
