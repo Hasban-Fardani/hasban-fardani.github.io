@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hasban fardani</title>
-    <link>https://hasban.site/categories/</link>
+    <link>https://hasban-fardani.github.io/categories/</link>
     <description>Recent content in Categories on Hasban fardani</description>
     <image>
       <title>Hasban fardani</title>
-      <url>https://hasban.site/hfcode.png</url>
-      <link>https://hasban.site/hfcode.png</link>
+      <url>https://hasban-fardani.github.io/hfcode.png</url>
+      <link>https://hasban-fardani.github.io/hfcode.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
-    <atom:link href="https://hasban.site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hasban-fardani.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

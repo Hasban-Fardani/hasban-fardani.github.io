@@ -2,30 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Hasban Fardani</title>
-    <link>https://hasban.site/id/posts/</link>
+    <link>https://hasban-fardani.github.io/id/posts/</link>
     <description>Recent content in Posts on Hasban Fardani</description>
     <image>
       <title>Hasban Fardani</title>
-      <url>https://hasban.site/hfcode.png</url>
-      <link>https://hasban.site/hfcode.png</link>
+      <url>https://hasban-fardani.github.io/hfcode.png</url>
+      <link>https://hasban-fardani.github.io/hfcode.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
-    <lastBuildDate>Thu, 08 Feb 2024 16:51:59 +0700</lastBuildDate>
-    <atom:link href="https://hasban.site/id/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Mar 2024 22:39:15 +0700</lastBuildDate>
+    <atom:link href="https://hasban-fardani.github.io/id/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mengapa Dokumentasi sangat penting untuk</title>
+      <link>https://hasban-fardani.github.io/id/posts/mengapa-dokumentasi-penting-untuk-developer/</link>
+      <pubDate>Fri, 01 Mar 2024 22:39:15 +0700</pubDate>
+      <guid>https://hasban-fardani.github.io/id/posts/mengapa-dokumentasi-penting-untuk-developer/</guid>
+      <description>Same as the summary</description>
+    </item>
     <item>
       <title>Hugo Static Web Generator Tercepat</title>
-      <link>https://hasban.site/id/posts/hugo-static-web-generator-tercepat/</link>
+      <link>https://hasban-fardani.github.io/id/posts/hugo-static-web-generator-tercepat/</link>
       <pubDate>Thu, 08 Feb 2024 16:51:59 +0700</pubDate>
-      <guid>https://hasban.site/id/posts/hugo-static-web-generator-tercepat/</guid>
+      <guid>https://hasban-fardani.github.io/id/posts/hugo-static-web-generator-tercepat/</guid>
       <description>Hugo framework SSG tercepat</description>
     </item>
     <item>
       <title>Selamat Datang di Blog</title>
-      <link>https://hasban.site/id/posts/welcome-to-my-blog/</link>
+      <link>https://hasban-fardani.github.io/id/posts/welcome-to-my-blog/</link>
       <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
-      <guid>https://hasban.site/id/posts/welcome-to-my-blog/</guid>
+      <guid>https://hasban-fardani.github.io/id/posts/welcome-to-my-blog/</guid>
       <description>blog pribadi</description>
     </item>
   </channel>

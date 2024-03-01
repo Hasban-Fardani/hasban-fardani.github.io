@@ -2,80 +2,115 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hasban.site/id/</loc>
-    <lastmod>2024-02-08T16:51:59+07:00</lastmod>
+    <loc>https://hasban-fardani.github.io/id/</loc>
+    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hasban.site/"
+                href="https://hasban-fardani.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://hasban.site/id/"
+                href="https://hasban-fardani.github.io/id/"
                 />
   </url><url>
-    <loc>https://hasban.site/id/posts/hugo-static-web-generator-tercepat/</loc>
+    <loc>https://hasban-fardani.github.io/id/posts/mengapa-dokumentasi-penting-untuk-developer/</loc>
+    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/posts/why-documentation-is-important-for-developer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/posts/mengapa-dokumentasi-penting-untuk-developer/"
+                />
+  </url><url>
+    <loc>https://hasban-fardani.github.io/id/posts/</loc>
+    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/posts/"
+                />
+  </url><url>
+    <loc>https://hasban-fardani.github.io/id/posts/hugo-static-web-generator-tercepat/</loc>
     <lastmod>2024-02-08T16:51:59+07:00</lastmod>
   </url><url>
-    <loc>https://hasban.site/id/posts/</loc>
-    <lastmod>2024-02-08T16:51:59+07:00</lastmod>
-  </url><url>
-    <loc>https://hasban.site/id/posts/welcome-to-my-blog/</loc>
+    <loc>https://hasban-fardani.github.io/id/posts/welcome-to-my-blog/</loc>
     <lastmod>2024-01-31T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://hasban.site/id/about/</loc>
+    <loc>https://hasban-fardani.github.io/id/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hasban.site/about/"
+                href="https://hasban-fardani.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://hasban.site/id/about/"
+                href="https://hasban-fardani.github.io/id/about/"
                 />
   </url><url>
-    <loc>https://hasban.site/id/achievements/</loc>
+    <loc>https://hasban-fardani.github.io/id/achievements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hasban.site/achievements/"
+                href="https://hasban-fardani.github.io/achievements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://hasban.site/id/achievements/"
+                href="https://hasban-fardani.github.io/id/achievements/"
                 />
   </url><url>
-    <loc>https://hasban.site/id/idcategories/</loc>
-  </url><url>
-    <loc>https://hasban.site/id/idseries/</loc>
-  </url><url>
-    <loc>https://hasban.site/id/idtags/</loc>
-  </url><url>
-    <loc>https://hasban.site/id/projects/</loc>
+    <loc>https://hasban-fardani.github.io/id/certificates/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hasban.site/projects/"
+                href="https://hasban-fardani.github.io/certificates/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://hasban.site/id/projects/"
+                href="https://hasban-fardani.github.io/id/certificates/"
                 />
   </url><url>
-    <loc>https://hasban.site/id/search/</loc>
+    <loc>https://hasban-fardani.github.io/id/idcategories/</loc>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/id/idseries/</loc>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/id/idtags/</loc>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/id/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hasban.site/search/"
+                href="https://hasban-fardani.github.io/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://hasban.site/id/search/"
+                href="https://hasban-fardani.github.io/id/projects/"
+                />
+  </url><url>
+    <loc>https://hasban-fardani.github.io/id/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/search/"
                 />
   </url>
 </urlset>

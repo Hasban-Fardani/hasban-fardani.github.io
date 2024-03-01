@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://hasban.site/sitemap.xml
+Sitemap: https://hasban-fardani.github.io/sitemap.xml

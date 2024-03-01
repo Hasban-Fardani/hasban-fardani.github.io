@@ -2,38 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hasban fardani</title>
-    <link>https://hasban.site/</link>
+    <link>https://hasban-fardani.github.io/</link>
     <description>Recent content on Hasban fardani</description>
     <image>
       <title>Hasban fardani</title>
-      <url>https://hasban.site/hfcode.png</url>
-      <link>https://hasban.site/hfcode.png</link>
+      <url>https://hasban-fardani.github.io/hfcode.png</url>
+      <link>https://hasban-fardani.github.io/hfcode.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
-    <atom:link href="https://hasban.site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Mar 2024 22:39:15 +0700</lastBuildDate>
+    <atom:link href="https://hasban-fardani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Documentation Is Important for Developer</title>
+      <link>https://hasban-fardani.github.io/posts/why-documentation-is-important-for-developer/</link>
+      <pubDate>Fri, 01 Mar 2024 22:39:15 +0700</pubDate>
+      <guid>https://hasban-fardani.github.io/posts/why-documentation-is-important-for-developer/</guid>
+      <description>Same as the summary</description>
+    </item>
     <item>
       <title>About Me</title>
-      <link>https://hasban.site/about/</link>
+      <link>https://hasban-fardani.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hasban.site/about/</guid>
+      <guid>https://hasban-fardani.github.io/about/</guid>
       <description>Hi I&amp;rsquo;m Hasban Fardani, a passionate Fullstack Developer with a focus on crafting high-performance and user-friendly web applications using Javascript, PHP, Python and Go. I&amp;rsquo;m driven by a constant desire to learn and explore new technologies, and I enjoy sharing my knowledge with others.
 My technical skills encompass both front-end and back-end development, allowing me to:
 Design and develop user interfaces that are intuitive and visually appealing. Build robust and scalable web applications.</description>
     </item>
     <item>
       <title>Archievement</title>
-      <link>https://hasban.site/achievements/</link>
+      <link>https://hasban-fardani.github.io/achievements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hasban.site/achievements/</guid>
+      <guid>https://hasban-fardani.github.io/achievements/</guid>
+      <description>My archievements</description>
+    </item>
+    <item>
+      <title>Archievement</title>
+      <link>https://hasban-fardani.github.io/certificates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban-fardani.github.io/certificates/</guid>
       <description>My archievements</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://hasban.site/projects/</link>
+      <link>https://hasban-fardani.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hasban.site/projects/</guid>
+      <guid>https://hasban-fardani.github.io/projects/</guid>
       <description>This page showcase a list projects developed by me or with my team.</description>
     </item>
   </channel>
