@@ -40,8 +40,9 @@
 {{- end }}
 
 {{- /*  toggle navbar  */}}
-<script src="/js/navbar.js" defer></script>
-
+{{ with resources.Get "/js/navbar.js" | minify | fingerprint "sha512" }}
+  <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+{{ end }}
 <header class="header">
     <nav class="nav">
         <div class="logo">
