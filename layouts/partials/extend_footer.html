@@ -1,0 +1,16 @@
+{{- /* Footer custom content area start */ -}}
+{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
+{{- /* Footer custom content area end */ -}}
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+    const animate = (selector, animation) => {
+        let el = document.querySelector(selector)
+    {{/*  console.log(el, animation, AOS)  */}}
+    el.setAttribute("data-aos", animation);
+  }
+  
+  animate('#top > main > div > div > h1', 'fade-up');
+
+  AOS.refresh();
+</script>

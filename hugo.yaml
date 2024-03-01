@@ -1,4 +1,4 @@
-baseURL: "https://hasban.site/"
+baseURL: "https://hasban-fardani.github.io/"
 title: "Hasban fardani"
 paginate: 5
 theme: PaperMod
@@ -51,17 +51,21 @@ languages:
         name: Achievements
         url: /achievements/
         weight: 40
+      - identifier: certificates
+        name: Certificates
+        url: /certificates/
+        weight: 50
       - identifier: posts
         name: Posts
         url: /posts/
-        weight: 50
+        weight: 60
       - identifier: search
         name: Search
         url: /search/
-        weight: 60
+        weight: 70
 
   id:
-    languageName: ":id:"
+    languageName: "indonesia"
     weight: 2
     title: Hasban Fardani
     taxonomies:
@@ -76,24 +80,28 @@ languages:
         weight: 10
       - identifier: about
         name: Tentang
-        url: /about/
+        url: /id/about/
         weight: 20
       - identifier: projects
         name: Proyek
-        url: /projects/
+        url: /id/projects/
         weight: 30
       - identifier: archievement
         name: Prestasi
-        url: /achievements/
+        url: /id/achievements/
         weight: 40
+      - identifier: certificates
+        name: Sertifikat
+        url: /id/certificates/
+        weight: 50
       - identifier: posts
         name: Post
-        url: /posts/
-        weight: 50
+        url: /id/posts/
+        weight: 60
       - identifier: search
         name: Cari
-        url: /search/
-        weight: 60
+        url: /id/search/
+        weight: 70
 
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:

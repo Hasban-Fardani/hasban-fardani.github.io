@@ -1,3 +1,5 @@
+@import url('https://unpkg.com/aos@next/dist/aos.css');
+
 :root {
     --code-bg: #f4f4f4;
     --tertiary: #212121;
@@ -29,7 +31,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     #menu {
         display: none;
         position: relative;
