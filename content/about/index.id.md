@@ -1,19 +1,19 @@
 --- 
 title: About Me
 ---
-Hi I'm Hasban Fardani, a passionate Fullstack Developer with a focus on crafting high-performance and user-friendly web applications using Javascript, PHP, Python and Go. I'm driven by a constant desire to learn and explore new technologies, and I enjoy sharing my knowledge with others.
+Hai, saya Hasban Fardani, seorang Fullstack Developer yang bersemangat dengan fokus pada pembuatan aplikasi web yang berkualitas tinggi dan ramah pengguna. Saya bisa menggunakan bahasa pemrogramman seperti Javascript, PHP, Python, dan Go. Saya memiliki  keinginan untuk belajar hal baru, dan saya menikmati berbagi pengetahuan dengan orang lain.
 
-**My technical skills encompass both front-end and back-end development, allowing me to:**
+**Keterampilan teknis saya meliputi pengembangan front-end dan back-end, memungkinkan saya untuk:**
 
-- Design and develop user interfaces that are intuitive and visually appealing.
-- Build robust and scalable web applications.
-- Optimize applications for performance and efficiency.
+- Merancang dan mengembangkan antarmuka pengguna yang intuitif dan menarik secara visual.
+- Membangun aplikasi web yang kokoh dan scalable.
+- Mengoptimalkan aplikasi untuk kinerja dan efisiensi.
 
-**Beyond my technical expertise, I also possess:**
+**Selain keahlian teknis saya, saya juga memiliki:**
 
-- A strong commitment to continuous learning and improvement.
-- A collaborative spirit and a willingness to work effectively within teams.
-- A passion for creating applications that make a positive impact.
-- I'm currently working on building my personal portfolio website, which will showcase my skills and experience in more detail.
+- Komitmen yang kuat untuk pembelajaran dan perbaikan terus menerus.
+- Semangat kolaboratif dan kemauan untuk bekerja secara efektif dalam tim.
+- Semangat untuk membuat aplikasi yang memiliki dampak positif.
+- Saat ini saya sedang mengerjakan pembuatan situs portofolio pribadi saya, yang akan menampilkan lebih detail keterampilan dan pengalaman saya.
 
-**I'm always eager to connect and learn from others, so feel free to reach out!**
+**Saya selalu antusias untuk terhubung dan belajar dari orang lain, jadi jangan ragu untuk menghubungi saya!**
