@@ -37,7 +37,7 @@ languages:
       main:
       - identifier: cv
         name: CV
-        url: /
+        url: https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani
         weight: 10
       - identifier: about
         name: About
@@ -76,7 +76,7 @@ languages:
       main:
       - identifier: cv
         name: CV
-        url: /
+        url: https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani
         weight: 10
       - identifier: about
         name: Tentang
@@ -110,14 +110,14 @@ languages:
         enabled: true
         title: "Hasban Fardani" 
         subtitle: >
-          Seorang software developer yang suka belajar mengenai teknologi dan berbagi pengetahuan.
+          Membuat aplikasi berkualitas tinggi, cepat, dan berfokus pada pengguna dengan desain UI/UX yang sederhana dan interaktif. Saya juga memiliki keterampilan organisasi dan komunikasi.
         imageUrl: "" # optional
         imageTitle: "My Profile" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
         buttons:
           - name: CV
-            url: "/"
+            url: https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani
           - name: Projects
             url: "/projects"
 
@@ -126,14 +126,14 @@ params:
     enabled: true
     title: "Hasban Fardani" 
     subtitle: >
-      A software developer who loves to learn new technologies and sharing knowledge.
+      Create high quality, fast and user-focused applications with simple and interactive UI/UX design. I also have some organizational and communication skills.
     imageUrl: "" # optional
     imageTitle: "My Profile" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
       - name: CV
-        url: "/"
+        url: "/https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani"
       - name: Projects
         url: "/projects"
   mainSections: 
