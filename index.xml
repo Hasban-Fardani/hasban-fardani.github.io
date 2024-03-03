@@ -16,9 +16,9 @@
     <atom:link href="https://hasban-fardani.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Documentation Is Important for Developer</title>
-      <link>https://hasban-fardani.github.io/posts/why-documentation-is-important-for-developer/</link>
+      <link>https://hasban-fardani.github.io/blog/why-documentation-is-important-for-developer/</link>
       <pubDate>Fri, 01 Mar 2024 22:39:15 +0700</pubDate>
-      <guid>https://hasban-fardani.github.io/posts/why-documentation-is-important-for-developer/</guid>
+      <guid>https://hasban-fardani.github.io/blog/why-documentation-is-important-for-developer/</guid>
       <description>Same as the summary</description>
     </item>
     <item>
@@ -45,11 +45,11 @@ Design and develop user interfaces that are intuitive and visually appealing. Bu
       <description>My archievements</description>
     </item>
     <item>
-      <title>Projects</title>
-      <link>https://hasban-fardani.github.io/projects/</link>
+      <title>sarpras</title>
+      <link>https://hasban-fardani.github.io/projects/detail/sarpras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hasban-fardani.github.io/projects/</guid>
-      <description>This page showcase a list projects developed by me or with my team.</description>
+      <guid>https://hasban-fardani.github.io/projects/detail/sarpras/</guid>
+      <description>p</description>
     </item>
   </channel>
 </rss>

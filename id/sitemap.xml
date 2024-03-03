@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hasban-fardani.github.io/id/blog/</loc>
+    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/blog/"
+                />
+  </url><url>
     <loc>https://hasban-fardani.github.io/id/</loc>
     <lastmod>2024-03-01T22:39:15+07:00</lastmod>
     <xhtml:link
@@ -15,36 +28,23 @@
                 href="https://hasban-fardani.github.io/id/"
                 />
   </url><url>
-    <loc>https://hasban-fardani.github.io/id/posts/mengapa-dokumentasi-penting-untuk-developer/</loc>
+    <loc>https://hasban-fardani.github.io/id/blog/mengapa-dokumentasi-penting-untuk-developer/</loc>
     <lastmod>2024-03-01T22:39:15+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hasban-fardani.github.io/posts/why-documentation-is-important-for-developer/"
+                href="https://hasban-fardani.github.io/blog/why-documentation-is-important-for-developer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://hasban-fardani.github.io/id/posts/mengapa-dokumentasi-penting-untuk-developer/"
+                href="https://hasban-fardani.github.io/id/blog/mengapa-dokumentasi-penting-untuk-developer/"
                 />
   </url><url>
-    <loc>https://hasban-fardani.github.io/id/posts/</loc>
-    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hasban-fardani.github.io/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://hasban-fardani.github.io/id/posts/"
-                />
-  </url><url>
-    <loc>https://hasban-fardani.github.io/id/posts/hugo-static-web-generator-tercepat/</loc>
+    <loc>https://hasban-fardani.github.io/id/blog/hugo-static-web-generator-tercepat/</loc>
     <lastmod>2024-02-08T16:51:59+07:00</lastmod>
   </url><url>
-    <loc>https://hasban-fardani.github.io/id/posts/welcome-to-my-blog/</loc>
+    <loc>https://hasban-fardani.github.io/id/blog/welcome-to-my-blog/</loc>
     <lastmod>2024-01-31T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://hasban-fardani.github.io/id/about/</loc>
@@ -99,6 +99,18 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://hasban-fardani.github.io/id/projects/"
+                />
+  </url><url>
+    <loc>https://hasban-fardani.github.io/id/projects/detail/sarpras/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/projects/detail/sarpras/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/projects/detail/sarpras/"
                 />
   </url><url>
     <loc>https://hasban-fardani.github.io/id/search/</loc>
