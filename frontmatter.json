@@ -49,7 +49,7 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "posts",
-      "path": "[[workspace]]/content/posts"
+      "path": "[[workspace]]/content/blog"
     }
   ],
   "frontMatter.content.publicFolder": "static",

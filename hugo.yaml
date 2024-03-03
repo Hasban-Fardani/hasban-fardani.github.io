@@ -9,8 +9,8 @@ enableEmoji: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-# mainSections: 
-#   - posts
+mainSections: 
+  - blog
 
 outputs:
   home:
@@ -55,9 +55,9 @@ languages:
         name: Certificates
         url: /certificates/
         weight: 50
-      - identifier: posts
-        name: Posts
-        url: /posts/
+      - identifier: blogs
+        name: Blog
+        url: /blog/
         weight: 60
       - identifier: search
         name: Search
@@ -94,9 +94,9 @@ languages:
         name: Sertifikat
         url: /id/certificates/
         weight: 50
-      - identifier: posts
-        name: Post
-        url: /id/posts/
+      - identifier: blogs
+        name: Blog
+        url: /id/blog/
         weight: 60
       - identifier: search
         name: Cari
@@ -133,7 +133,7 @@ params:
     imageHeight: 120 # custom size
     buttons:
       - name: CV
-        url: "/https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani"
+        url: https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani
       - name: Projects
         url: "/projects"
   mainSections: 
@@ -230,3 +230,13 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
+
+server:
+  headers:
+    -for: /**
+    values:
+      -X-Frame-Options: SAMEORIGIN
+      -X-XSS-Protection: 1; mode=block
+      -X-Content-Type-Options: nosniff
+      -Referrer-Policy: no-referrer
+      -Cache-Control: max-age=31536000
