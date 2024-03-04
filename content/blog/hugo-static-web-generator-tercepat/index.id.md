@@ -25,7 +25,7 @@ Hugo juga memiliki fitur - fitur keren lainnya seperti taxonomi, internalization
 1. [cloudflare documentation](https://developers.cloudflare.com/)
 2. [fireship.io](https://fireship.io/)
 3. [petanikode.com](https://www.petanikode.com/)
-4. [hasban.site](https://www.hasban.site)
+4. [hasban-fardani.github.io](https://www.hasban-fardani.github.io)
 
 # Mengapa saya memilih hugo?
 1. ringan dan cepat

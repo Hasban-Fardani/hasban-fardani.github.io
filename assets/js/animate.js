@@ -11,21 +11,22 @@ console.log(path)
 
 // navbar
 animate('#top > header', 'fade-down', 50, 500);
-if (path == '/') {
-    animate('#top > main > div > div > h1', 'fade-up', 50, 1000);  // heading
-    animate('#top > main > div > div > span', 'fade-up', 150);  // description
+
+if (path == '/' || path == '/id/') {
+    animate('#top > main > div > div > h1', 'fade-up', 50, 600);  // heading
+    animate('#top > main > div > div > span', 'fade-up', 150, 500);  // description
     // socials
     animate('#top > main > div > div > div.social-icons > a:nth-child(1)', 'fade-left', 300);
-    animate('#top > main > div > div > div.social-icons > a:nth-child(2)', 'fade-left', 600);
-    animate('#top > main > div > div > div.social-icons > a:nth-child(3)', 'fade-left', 900);
+    animate('#top > main > div > div > div.social-icons > a:nth-child(2)', 'fade-left', 500);
+    animate('#top > main > div > div > div.social-icons > a:nth-child(3)', 'fade-left', 700);
     // CTA
-    animate('#top > main > div > div > div.buttons > a:nth-child(1)', 'fade-up', 1200);
-    animate('#top > main > div > div > div.buttons > a:nth-child(2)', 'fade-up', 1500);
+    animate('#top > main > div > div > div.buttons > a:nth-child(1)', 'fade-up', 900);
+    animate('#top > main > div > div > div.buttons > a:nth-child(2)', 'fade-up', 1000);
 }
 
-if (path == '/about/') {
-    animate('#top > main > article > header', 'fade-up');
-    animate('#top > main > article > div', 'fade-up', 150);
+if (path == '/about/' || path == '/id/about/') {
+    animate('#top > main > article > header', 'fade-up');  // heading
+    animate('#top > main > article > div', 'fade-up', 150);  // content
 }
 
 AOS.init();

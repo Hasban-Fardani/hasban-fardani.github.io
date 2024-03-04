@@ -4,7 +4,7 @@ date: 2024-03-01T22:39:15+07:00
 slug: "mengapa-dokumentasi-penting-untuk-developer"
 category: [developer, tips]
 summary: 
-description: Same as the summary
+description:
 showtoc: true
 draft: false
 ---
