@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://hasban-fardani.github.io/id/blog/</loc>
-    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
+    <lastmod>2024-03-04T22:02:39+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://hasban-fardani.github.io/id/</loc>
-    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
+    <lastmod>2024-03-04T22:02:39+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -27,6 +27,9 @@
                 hreflang="id"
                 href="https://hasban-fardani.github.io/id/"
                 />
+  </url><url>
+    <loc>https://hasban-fardani.github.io/id/blog/tcl-mysql/</loc>
+    <lastmod>2024-03-04T22:02:39+07:00</lastmod>
   </url><url>
     <loc>https://hasban-fardani.github.io/id/blog/mengapa-dokumentasi-penting-untuk-developer/</loc>
     <lastmod>2024-03-01T22:39:15+07:00</lastmod>
@@ -43,9 +46,29 @@
   </url><url>
     <loc>https://hasban-fardani.github.io/id/blog/hugo-static-web-generator-tercepat/</loc>
     <lastmod>2024-02-08T16:51:59+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/blog/hugo-static-web-generator-tercepat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/blog/hugo-static-web-generator-tercepat/"
+                />
   </url><url>
     <loc>https://hasban-fardani.github.io/id/blog/welcome-to-my-blog/</loc>
     <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/blog/welcome-to-my-blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/blog/welcome-to-my-blog/"
+                />
   </url><url>
     <loc>https://hasban-fardani.github.io/id/about/</loc>
     <xhtml:link

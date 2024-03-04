@@ -12,14 +12,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
-    <lastBuildDate>Fri, 01 Mar 2024 22:39:15 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 22:02:39 +0700</lastBuildDate>
     <atom:link href="https://hasban-fardani.github.io/id/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TCL (Transaction Control Language) di MYSQL</title>
+      <link>https://hasban-fardani.github.io/id/blog/tcl-mysql/</link>
+      <pubDate>Mon, 04 Mar 2024 22:02:39 +0700</pubDate>
+      <guid>https://hasban-fardani.github.io/id/blog/tcl-mysql/</guid>
+      <description>Apa itu TCL? TCL atau Transaction Control Language adalah serangkaian perintah atau query untuk mengendalikan transaksi. Diantaranya adalah:
+START TRANSACTION, untuk membuat transaksi COMMIT, untuk menyimpan perubahan dari transaksi ROLLBACK, untuk mengembalikan perubahan dari transaksi SAVEPOINT &amp;lt;nama_save_point&amp;gt;, untuk menandai langkah dengan nama tertentu saat menggunakan transaksi ROLLBACK TO SAVEPOINT &amp;lt;nama_save_point&amp;gt;, untuk mengembalikan proses ke langkah berdasarkan nama savepoint. Mengapa kita perlu menggunakan TCL? Konsistensi Data: TCL memastikan bahwa perubahan dalam transaksi dilakukan bersamaan atau tidak sama sekali.</description>
+    </item>
     <item>
       <title>Mengapa Dokumentasi sangat penting untuk</title>
       <link>https://hasban-fardani.github.io/id/blog/mengapa-dokumentasi-penting-untuk-developer/</link>
       <pubDate>Fri, 01 Mar 2024 22:39:15 +0700</pubDate>
       <guid>https://hasban-fardani.github.io/id/blog/mengapa-dokumentasi-penting-untuk-developer/</guid>
-      <description>Same as the summary</description>
+      <description>Apa itu Dokumentasi Dokumentasi secara singkat adalah proses pengumpulan, pengelolaan dan penyimpanan informasi, sumber.
+Dalam dunia pemrogramman para programmer biasanya digunakan untuk menjelaskan kode yang telah mereka buat entah itu per blok kode atau bisa juga dokumentasi project. Hal ini sangat membantu programmer dalam berkomunikasi antar tim, bayangkan saja jika anda menulis kode dengan beberapa orang sekaligus dimana mereka memiliki pemikiran masing - masing pasti akan sulit jika tidak ada panduan khusus bagaimana sebuah kode itu berjalan.</description>
     </item>
     <item>
       <title>Hugo Static Web Generator Tercepat</title>

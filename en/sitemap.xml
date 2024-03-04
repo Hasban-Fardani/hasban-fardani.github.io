@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://hasban-fardani.github.io/blog/</loc>
-    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
+    <lastmod>2024-03-04T22:02:26+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://hasban-fardani.github.io/</loc>
-    <lastmod>2024-03-01T22:39:15+07:00</lastmod>
+    <lastmod>2024-03-04T22:02:26+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -40,6 +40,56 @@
                 hreflang="en"
                 href="https://hasban-fardani.github.io/blog/why-documentation-is-important-for-developer/"
                 />
+  </url><url>
+    <loc>https://hasban-fardani.github.io/blog/hugo-static-web-generator-tercepat/</loc>
+    <lastmod>2024-02-08T16:51:59+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/blog/hugo-static-web-generator-tercepat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/blog/hugo-static-web-generator-tercepat/"
+                />
+  </url><url>
+    <loc>https://hasban-fardani.github.io/categories/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/tags/code/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/tags/gist/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/tags/markdown/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/blog/welcome-to-my-blog/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://hasban-fardani.github.io/id/blog/welcome-to-my-blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hasban-fardani.github.io/blog/welcome-to-my-blog/"
+                />
+  </url><url>
+    <loc>https://hasban-fardani.github.io/tags/syntax/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/categories/syntax/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/tags/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://hasban-fardani.github.io/categories/themes/</loc>
+    <lastmod>2024-01-31T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://hasban-fardani.github.io/about/</loc>
     <xhtml:link
@@ -77,8 +127,6 @@
                 href="https://hasban-fardani.github.io/certificates/"
                 />
   </url><url>
-    <loc>https://hasban-fardani.github.io/categories/</loc>
-  </url><url>
     <loc>https://hasban-fardani.github.io/projects/</loc>
     <xhtml:link
                 rel="alternate"
@@ -114,7 +162,5 @@
                 hreflang="en"
                 href="https://hasban-fardani.github.io/search/"
                 />
-  </url><url>
-    <loc>https://hasban-fardani.github.io/tags/</loc>
   </url>
 </urlset>
