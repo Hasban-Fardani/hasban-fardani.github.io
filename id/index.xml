@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <copyright>**[Hasban Fardani](https://hasban.site)**</copyright>
-    <lastBuildDate>Mon, 04 Mar 2024 22:02:39 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2024 07:45:04 +0700</lastBuildDate>
     <atom:link href="https://hasban-fardani.github.io/id/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TCL (Transaction Control Language) di MYSQL</title>
@@ -31,27 +31,11 @@ START TRANSACTION, untuk membuat transaksi COMMIT, untuk menyimpan perubahan dar
 Dalam dunia pemrogramman para programmer biasanya digunakan untuk menjelaskan kode yang telah mereka buat entah itu per blok kode atau bisa juga dokumentasi project. Hal ini sangat membantu programmer dalam berkomunikasi antar tim, bayangkan saja jika anda menulis kode dengan beberapa orang sekaligus dimana mereka memiliki pemikiran masing - masing pasti akan sulit jika tidak ada panduan khusus bagaimana sebuah kode itu berjalan.</description>
     </item>
     <item>
-      <title>Hugo Static Web Generator Tercepat</title>
-      <link>https://hasban-fardani.github.io/id/blog/hugo-static-web-generator-tercepat/</link>
-      <pubDate>Thu, 08 Feb 2024 16:51:59 +0700</pubDate>
-      <guid>https://hasban-fardani.github.io/id/blog/hugo-static-web-generator-tercepat/</guid>
-      <description>Hugo framework SSG tercepat</description>
-    </item>
-    <item>
       <title>Selamat Datang di Blog</title>
       <link>https://hasban-fardani.github.io/id/blog/welcome-to-my-blog/</link>
       <pubDate>Wed, 31 Jan 2024 11:30:03 +0000</pubDate>
       <guid>https://hasban-fardani.github.io/id/blog/welcome-to-my-blog/</guid>
       <description>blog pribadi</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>https://hasban-fardani.github.io/id/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hasban-fardani.github.io/id/about/</guid>
-      <description>Hai, saya Hasban Fardani, seorang Fullstack Developer yang bersemangat dengan fokus pada pembuatan aplikasi web yang berkualitas tinggi dan ramah pengguna. Saya bisa menggunakan bahasa pemrogramman seperti Javascript, PHP, Python, dan Go. Saya memiliki keinginan untuk belajar hal baru, dan saya menikmati berbagi pengetahuan dengan orang lain.
-Keterampilan teknis saya meliputi pengembangan front-end dan back-end, memungkinkan saya untuk:
-Merancang dan mengembangkan antarmuka pengguna yang intuitif dan menarik secara visual. Membangun aplikasi web yang kokoh dan scalable.</description>
     </item>
     <item>
       <title>Archievement</title>
@@ -61,18 +45,32 @@ Merancang dan mengembangkan antarmuka pengguna yang intuitif dan menarik secara 
       <description>Pencapaian yang pernah saya raih</description>
     </item>
     <item>
-      <title>Archievement</title>
-      <link>https://hasban-fardani.github.io/id/certificates/</link>
+      <title>Landing page web edukasi</title>
+      <link>https://hasban-fardani.github.io/id/projects/education-landing-page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hasban-fardani.github.io/id/certificates/</guid>
-      <description>Pencapaian yang pernah saya raih</description>
+      <guid>https://hasban-fardani.github.io/id/projects/education-landing-page/</guid>
+      <description>Hasil landing page saat lomba liga SMK slicing brawl stage</description>
     </item>
     <item>
       <title>sarpras</title>
-      <link>https://hasban-fardani.github.io/id/projects/detail/sarpras/</link>
+      <link>https://hasban-fardani.github.io/id/projects/sarpras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hasban-fardani.github.io/id/projects/detail/sarpras/</guid>
-      <description>p</description>
+      <guid>https://hasban-fardani.github.io/id/projects/sarpras/</guid>
+      <description>Aplikasi manajemen sarana prasarana untuk sekolah</description>
+    </item>
+    <item>
+      <title>Sertifikat</title>
+      <link>https://hasban-fardani.github.io/id/certificates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban-fardani.github.io/id/certificates/</guid>
+      <description>Sertifikat</description>
+    </item>
+    <item>
+      <title>Tentang</title>
+      <link>https://hasban-fardani.github.io/id/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hasban-fardani.github.io/id/about/</guid>
+      <description>Tentang</description>
     </item>
   </channel>
 </rss>
