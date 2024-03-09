@@ -1,5 +1,5 @@
 ---
-title: "Archievement"
-summary: My archievements
+title: "Certificates"
+summary: My Certificates
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: single
+layout: project_list
 description: Halaman ini berisi kumpulan - kumpulan project yang telah saya buat
 ShowToc: true
 TocOpen: true

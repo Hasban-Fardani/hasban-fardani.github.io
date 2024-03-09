@@ -37,7 +37,7 @@ languages:
       main:
       - identifier: cv
         name: CV
-        url: https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani
+        url: https://www.cakeresume.com/hasban-fardani
         weight: 10
       - identifier: about
         name: About
@@ -76,7 +76,7 @@ languages:
       main:
       - identifier: cv
         name: CV
-        url: https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani
+        url: https://www.cakeresume.com/hasban-fardani
         weight: 10
       - identifier: about
         name: Tentang
@@ -105,6 +105,8 @@ languages:
 
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
+      ShowPostNavLinks: true
+      ShowBreadCrumbs: true
       languageAltTitle: Indonesia
       profileMode:
         enabled: true
@@ -117,12 +119,22 @@ languages:
         imageHeight: 120 # custom size
         buttons:
           - name: CV
-            url: https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani
+            url: https://www.cakeresume.com/hasban-fardani
           - name: Projects
             url: "/projects"
+        ShowCodeCopyButtons: false
+        ShowRssButtonInSectionTermList: true
+        UseHugoToc: true
+        disableSpecial1stPost: false
+        disableScrollToTop: false
+        hidemeta: false
+        hideSummary: false
+        showtoc: false
+        tocopen: false
 
 params:
   profileMode:
+    ShowBreadCrumbs: true
     enabled: true
     title: "Hasban Fardani" 
     subtitle: >
@@ -133,11 +145,11 @@ params:
     imageHeight: 120 # custom size
     buttons:
       - name: CV
-        url: https://www.cakeresume.com/s--phB-1nT8yiMEHymR9EL-vw--/hasban-fardani
+        url: https://www.cakeresume.com/hasban-fardani
       - name: Projects
         url: "/projects"
   mainSections: 
-    - posts
+    - blog
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Hasban Fardani"
   description: "Hasban Fardani personal site"

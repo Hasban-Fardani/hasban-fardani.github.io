@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: single
+layout: project_list
 description: This page showcase a list projects developed by me or with my team.
 ShowToc: true
 TocOpen: true

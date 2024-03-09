@@ -29,7 +29,36 @@
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* dua kolom dengan lebar minimum 300px */
+    gap: 20px;
+    /* jarak antara kartu */
+}
+
+.card {
+    display: none;
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card * {
+    color: var(--primary);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
     #menu {
         display: none;
         position: relative;
@@ -67,16 +96,16 @@
     .open li:hover {
         background-color: var(--theme);
     }
-    
+
     .open li:hover a {
         color: var(--primary) !important;
     }
 
-    #hamburger  {
+    #hamburger {
         display: block !important;
         position: fixed;
         top: 0;
         z-index: 100;
         right: 10px;
-    }   
+    }
 }

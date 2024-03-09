@@ -1,5 +1,5 @@
 
-const animate = (selector, animation, delay = 50, duration = 800) => {
+const animate = (selector, animation = 'fade-up', delay = 50, duration = 800) => {
     let el = document.querySelector(selector)
     el.setAttribute("data-aos", animation);
     el.setAttribute("data-aos-delay", delay);
@@ -7,7 +7,6 @@ const animate = (selector, animation, delay = 50, duration = 800) => {
 }
 
 var path = window.location.pathname;
-console.log(path)
 
 // navbar
 animate('#top > header', 'fade-down', 50, 500);
@@ -27,6 +26,11 @@ if (path == '/' || path == '/id/') {
 if (path == '/about/' || path == '/id/about/') {
     animate('#top > main > article > header', 'fade-up');  // heading
     animate('#top > main > article > div', 'fade-up', 150);  // content
+}
+
+if (path == '/projects/' || path == '/id/projects/') {
+    animate('#top > main > header', 'fade-up')  // heading
+    animate('#top > main > div', 'fade-up', 150)  // content
 }
 
 AOS.init();
