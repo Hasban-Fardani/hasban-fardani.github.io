@@ -9,8 +9,12 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     'nuxt-icon',
   ],
+  routeRules: {
+    '/': { redirect: '/en'}
+  },
 
   i18n: {
+    locale: 'en',
     locales: [
       {
         code: 'en',
@@ -20,6 +24,7 @@ export default defineNuxtConfig({
         code: 'id',
         iso: 'id-ID'
       },
-    ]
+    ],
+    vueI18n: './i18.config.ts'
   }
 })
