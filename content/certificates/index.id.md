@@ -1,5 +1,0 @@
----
-title: "Sertifikat"
-summary: Sertifikat
----
-
