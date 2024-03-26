@@ -7,12 +7,9 @@ const getUrl = (path) => {
 }
 </script>
 <template>
-    <ContentList :path="`/posts/${locale}`" v-slot="{ list }">
-      <div v-for="post in list" :key="post._path">
-        <NuxtLink :to="getUrl(post._path)">
-            <h2>{{ post.title }}</h2>
-            <p>{{ post.description }}</p>
-        </NuxtLink>
+    <ContentList :path="`/projects/${locale}`" v-slot="{ list }">
+      <div v-for="project in list" :key="project._path">
+        <ProjectCard :project="project" />
       </div>
     </ContentList>
 </template>

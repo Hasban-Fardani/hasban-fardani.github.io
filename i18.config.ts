@@ -13,10 +13,12 @@ export default defineI18nConfig(() => ({
   ],
   messages: {
     en: {
-        about: "About"
+        about: "About",
+        projects: "Projects",
     },
     id: {
         about: "Tentang",
+        projects: "Proyek",
     },
   },
 }));

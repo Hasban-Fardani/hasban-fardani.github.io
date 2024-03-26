@@ -1,16 +1,17 @@
 <script setup>
-const localePath = useLocalePath()
 const route = useRoute()
 const { locale } = useI18n()
 
-console.log(locale.value)
 </script>
 <template>
     <main>
       <ContentDoc v-slot="{ doc }" :path="`/posts/${locale}/${route.params.slug}`">
         <article>
-          <h1>{{ doc.title }}</h1>
-          <ContentRenderer :value="doc" />
+          <h2 class="text-3xl">{{ doc.title }}</h2>
+          <ul>
+            <li>{{ doc.publishedAt }}</li>
+          </ul>
+          <ContentRenderer :value="doc" class="mt-4"/>
         </article>
       </ContentDoc>
     </main>

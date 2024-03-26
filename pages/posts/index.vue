@@ -1,18 +1,10 @@
 <script setup>
 const { locale } = useI18n()
-const localePath = useLocalePath()
-
-const getUrl = (path) => {
-  return localePath(path.replace(`/${locale.value}`, ''))
-}
 </script>
 <template>
-    <ContentList :path="`/posts/${locale}`" v-slot="{ list }">
-      <div v-for="post in list" :key="post._path">
-        <NuxtLink :to="getUrl(post._path)">
-            <h2>{{ post.title }}</h2>
-            <p>{{ post.description }}</p>
-        </NuxtLink>
+    <ContentList :path="`/posts/${locale}`" v-slot="{ list }" class="w-full">
+      <div v-for="post in list" :key="post._path" class="border-b border-gray-300 pb-4">
+        <PostCard :post="post" />
       </div>
     </ContentList>
 </template>

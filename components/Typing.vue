@@ -1,5 +1,8 @@
 <template>
-  <span ref="textDisplay"></span>
+  <div class="inline">
+    <span ref="textDisplay"></span>
+    <span ref="cursor" class="cursor">|</span>
+  </div>
 </template>
 
 <script>
@@ -16,55 +19,64 @@ export default {
       currentText: "",
       typingSpeed: 50, // Speed of typing in milliseconds
       eraseSpeed: 30, // Speed of erasing in milliseconds
-      delayBetweenTexts: 1000 // Delay between changing texts in milliseconds
+      delayBetweenTexts: 3000, // Delay between changing texts in milliseconds
+      eraseDelay: 50, // Delay after erasing each text in milliseconds
+      showCursor: true // Flag to control cursor visibility
     };
   },
   methods: {
     typeText(text, callback) {
-      try {
-        let currentIndex = 0;
-        const intervalId = setInterval(() => {
-          this.currentText += text[currentIndex];
-          this.$refs.textDisplay.textContent = this.currentText;
-          currentIndex++;
-          if (currentIndex === text.length) {
-            clearInterval(intervalId);
-            callback();
-          }
-        }, this.typingSpeed);
-      } catch (error) {}
+      let currentIndex = 0;
+      const intervalId = setInterval(() => {
+        this.currentText += text[currentIndex];
+        this.$refs.textDisplay.textContent = this.currentText;
+        currentIndex++;
+        if (currentIndex === text.length) {
+          clearInterval(intervalId);
+          setTimeout(callback, this.delayBetweenTexts);
+        }
+      }, this.typingSpeed);
     },
     eraseText(callback) {
-      try {
-        setTimeout(() => {
-          const intervalId = setInterval(() => {
-            this.currentText = this.currentText.slice(0, -1);
-            this.$refs.textDisplay.textContent = this.currentText;
-            if (this.currentText.length === 0) {
-              clearInterval(intervalId);
-              callback();
-            }
-          }, this.eraseSpeed);
-        }, this.delayBetweenTexts);
-      } catch (error) {}
+      const textLength = this.currentText.length;
+      const intervalId = setInterval(() => {
+        this.currentText = this.currentText.slice(0, -1);
+        this.$refs.textDisplay.textContent = this.currentText;
+        if (this.currentText.length === 0) {
+          clearInterval(intervalId);
+          setTimeout(callback, this.eraseDelay);
+        }
+      }, this.eraseSpeed);
     },
     changeText() {
-      const nextIndex = (this.currentTextIndex + 1) % this.texts.length;
+      const nextIndex =
+        (this.currentTextIndex + 1) % this.texts.length;
       const nextText = this.texts[nextIndex];
       this.currentTextIndex = nextIndex;
       this.eraseText(() => {
-        setTimeout(() => {
-          this.typeText(nextText, this.changeText);
-        }, this.delayBetweenTexts);
+        this.typeText(nextText, this.changeText);
       });
-    }
+    },
   },
   mounted() {
-    this.changeText();
+    this.changeText(); // Start typing effect
   }
 };
 </script>
 
 <style scoped>
-/* Add any custom styling here */
+.cursor {
+  display: inline;
+  margin-left: 2px; 
+  animation: blink 0.5s infinite alternate-reverse;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 </style>
