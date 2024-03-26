@@ -13,6 +13,12 @@ export default defineNuxtConfig({
     '/': { redirect: '/en'}
   },
 
+  nitro: {
+    prerender: {
+      failOnError: false,
+    },
+  },
+  
   i18n: {
     // defaultLocale: 'en',
     locale: 'en',
