@@ -124,18 +124,6 @@
                 href="https://hasban-fardani.github.io/id/projects/sarpras/"
                 />
   </url><url>
-    <loc>https://hasban-fardani.github.io/id/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hasban-fardani.github.io/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://hasban-fardani.github.io/id/search/"
-                />
-  </url><url>
     <loc>https://hasban-fardani.github.io/id/certificates/</loc>
     <xhtml:link
                 rel="alternate"
@@ -146,18 +134,6 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://hasban-fardani.github.io/id/certificates/"
-                />
-  </url><url>
-    <loc>https://hasban-fardani.github.io/id/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hasban-fardani.github.io/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://hasban-fardani.github.io/id/about/"
                 />
   </url>
 </urlset>

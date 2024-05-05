@@ -73,18 +73,6 @@
                 href="https://hasban-fardani.github.io/blog/welcome-to-my-blog/"
                 />
   </url><url>
-    <loc>https://hasban-fardani.github.io/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://hasban-fardani.github.io/id/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hasban-fardani.github.io/about/"
-                />
-  </url><url>
     <loc>https://hasban-fardani.github.io/achievements/</loc>
     <xhtml:link
                 rel="alternate"
@@ -149,18 +137,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://hasban-fardani.github.io/projects/sarpras/"
-                />
-  </url><url>
-    <loc>https://hasban-fardani.github.io/search/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://hasban-fardani.github.io/id/search/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hasban-fardani.github.io/search/"
                 />
   </url>
 </urlset>
