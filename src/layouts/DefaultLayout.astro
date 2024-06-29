@@ -1,0 +1,19 @@
+---
+const { title } = Astro.props;
+import Navbar from "../components/Navbar.astro";
+---
+
+<html data-theme="mytheme" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body class="bg-primary text-white h-screen">
+    <header>
+      <Navbar/>
+    </header>
+    <main>
+      <slot/>
+    </main>
+  </body>
+</html>

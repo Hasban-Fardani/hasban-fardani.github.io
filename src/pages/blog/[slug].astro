@@ -1,0 +1,48 @@
+---
+import type { BlockObjectResponse, PartialBlockObjectResponse } from '@notionhq/client/build/src/api-endpoints';
+import { getPageBySlug, getBlocks, getDatabase } from '../../lib/notion';
+import DefaultLayout from '../../layouts/DefaultLayout.astro';
+
+export async function getStaticPaths() {
+  const database = await getDatabase();
+  return database.map(db => ({ params: { slug: db.slug } }));
+}
+
+const { slug } = Astro.params;
+const page = await getPageBySlug(slug);
+const title = page.properties.title.title[0].text.content;
+const blocks = await getBlocks(page.id);
+
+function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
+  const getTextContent = (block) => {
+    return block.rich_text && block.rich_text.length > 0 && block.rich_text[0].text ? block.rich_text[0].text.content : '';
+  };
+
+  switch (block.type) {
+    case 'paragraph':
+      return `<p>${getTextContent(block.paragraph)}</p>`;
+    case 'heading_1':
+      return `<h1>${getTextContent(block.heading_1)}</h1>`;
+    case 'heading_2':
+      return `<h2>${getTextContent(block.heading_2)}</h2>`;
+    case 'heading_3':
+      return `<h3>${getTextContent(block.heading_3)}</h3>`;
+    default:
+      return `<div>${block.type}</div>`;
+  }
+}
+---
+
+<DefaultLayout>
+  <h1 id="title" id-value={page.id}>{title}</h1>
+  <div>
+    {blocks.map(block => (
+      <Fragment key={block.id} set:html={renderBlock(block)} />
+    ))}
+  </div>
+</DefaultLayout>
+<script>
+  import { addViews } from "../../lib/notion";
+  const pageId = document.getElementById('title')!.getAttribute('id-value')
+  addViews(pageId);
+</script>
