@@ -22,7 +22,7 @@ jobs:
         run: bun install
 
       - name: Build project
-        run: bun run build
+        run: NOTION_DATABASE_ID=${{ vars.NOTION_DATABASE_ID }} NOTION_API_KEY=${{ vars.NOTION_API_KEY }} bun run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
