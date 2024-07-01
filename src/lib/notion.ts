@@ -8,12 +8,14 @@ function getProperty(property, type) {
 
 export async function getDatabase() {
   const response = await notion.databases.query({ database_id: import.meta.env.NOTION_DATABASE_ID });
-  
+  // console.log("result: ",response.results[0].cover.external.url)
+
   return response.results.map(page => ({
     id: page.id,
+    cover: page.cover.external.url,
     title: getProperty(page.properties.title, 'title'),
     description: getProperty(page.properties.description, 'rich_text'),
-    category: page.properties.category ? page.properties.category.select.name : '',
+    categories: page.properties.categories ? page.properties.categories.multi_select.map(category => category.name) : [],
     tags: page.properties.tags ? page.properties.tags.multi_select.map(tag => tag.name) : [],
     slug: getProperty(page.properties.slug, 'rich_text'),
   }));

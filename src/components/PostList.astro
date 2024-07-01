@@ -1,2 +1,19 @@
 ---
+import PostCard from '../components/PostCard.astro';
+import { getDatabase } from '../lib/notion';
+
+let posts = await getDatabase();
+
+const { count } = Astro.props
+if (count) {
+  posts = posts.splice(count)
+}
 ---
+
+<div class="container mx-auto py-8 px-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {posts.map(post => (
+        <PostCard {...post} />
+      ))}
+    </div>
+</div>

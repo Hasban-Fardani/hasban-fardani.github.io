@@ -1,0 +1,54 @@
+---
+export interface PostCardProps {
+  title: string;
+  cover: string;
+  description: string;
+  tags: string[];
+  categories: string[];
+  series: string;
+  slug: string;
+}
+
+const { cover, title, description, tags, categories, series, slug } =
+  Astro.props as PostCardProps;
+---
+
+<a
+  href={`/blog/${slug}`}
+  class="block max-w-sm mx-auto bg-base-100 shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+>
+  <img
+    src={cover}
+    alt={title}
+    class="w-full h-40 object-cover"
+  />
+  <div class="p-5">
+    <h2 class="text-xl font-bold text-primary mb-2">{title}</h2>
+    <p class="text-base-content mb-4">{description}</p>
+    <div class="flex flex-wrap gap-2 mb-2">
+      {
+        tags.length > 0
+          ? tags.map((tag: string) => (
+              <span class="badge badge-primary">#{tag}</span>
+            ))
+          : null
+      }
+    </div>
+    <div class="flex flex-wrap gap-2 mb-2">
+      {
+        categories.length > 0
+          ? categories.map((category: string) => (
+              <span class="badge badge-secondary rounded-none py-3">{category}</span>
+            ))
+          : null
+      }
+    </div>
+    {
+      series && (
+        <div class="mt-2 text-sm text-secondary">
+          Part of series: <span class="font-semibold">{series}</span>
+        </div>
+      )
+    }
+  </div>
+</a>
