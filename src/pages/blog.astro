@@ -1,21 +1,8 @@
 ---
-import { getDatabase } from '../lib/notion';
 import DefaultLayout from '../layouts/DefaultLayout.astro';
 import PostList from '../components/PostList.astro';
-
-const posts = await getDatabase();
 ---
 <DefaultLayout>
   <h1 class="text-4xl font-bold text-center mb-8">Blog Posts</h1>
   <PostList/>
-  <!-- <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-    {posts.map(post => (
-      <a href={`/blog/${post.slug}`} class="card">
-        <h2>{post.title}</h2>
-        <p>{post.description}</p>
-        <p>Category: {post.category}</p>
-        <p>Tags: {post.tags.join(', ')}</p>
-      </a>
-    ))}
-  </div> -->
 </DefaultLayout>

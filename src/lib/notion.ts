@@ -7,12 +7,15 @@ function getProperty(property, type) {
 }
 
 export async function getDatabase() {
-  const response = await notion.databases.query({ database_id: import.meta.env.NOTION_DATABASE_ID });
-  // console.log("result: ",response.results[0].cover.external.url)
+  let response = await notion.databases.query({ database_id: import.meta.env.NOTION_DATABASE_ID });
 
-  return response.results.map(page => ({
+  // check if published
+  response = response.results.filter(page => page.properties.draf.select.name == 'false');
+  // console.log("result: ",response[0])
+
+  return response.map(page => ({
     id: page.id,
-    cover: page.cover.external.url,
+    cover: page.cover.external.url ?? 'https://picsum.photos',
     title: getProperty(page.properties.title, 'title'),
     description: getProperty(page.properties.description, 'rich_text'),
     categories: page.properties.categories ? page.properties.categories.multi_select.map(category => category.name) : [],

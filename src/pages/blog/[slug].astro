@@ -22,11 +22,15 @@ function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
     case 'paragraph':
       return `<p>${getTextContent(block.paragraph)}</p>`;
     case 'heading_1':
-      return `<h1>${getTextContent(block.heading_1)}</h1>`;
+      return `<h1 class="text-2xl">${getTextContent(block.heading_1)}</h1>`;
     case 'heading_2':
       return `<h2>${getTextContent(block.heading_2)}</h2>`;
     case 'heading_3':
       return `<h3>${getTextContent(block.heading_3)}</h3>`;
+    case 'numbered_list_item':
+      return `<li>${getTextContent(block.numbered_list_item)}</li>`;
+    case 'image':
+      return `<img src="${block.image.file.url}" alt="${getTextContent(block.image.caption)}" />`;
     default:
       return `<div>${block.type}</div>`;
   }
@@ -34,8 +38,8 @@ function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
 ---
 
 <DefaultLayout>
-  <h1 id="title" id-value={page.id}>{title}</h1>
-  <div>
+  <h1 id="title" id-value={page.id} class="text-3xl font-bold text-center mb-8">{title}</h1>
+  <div class="max-w-[85ch]">
     {blocks.map(block => (
       <Fragment key={block.id} set:html={renderBlock(block)} />
     ))}
