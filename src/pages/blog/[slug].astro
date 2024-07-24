@@ -18,19 +18,24 @@ function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
     return block.rich_text && block.rich_text.length > 0 && block.rich_text[0].text ? block.rich_text[0].text.content : '';
   };
 
+  console.log(block)
+  
+
   switch (block.type) {
     case 'paragraph':
-      return `<p>${getTextContent(block.paragraph)}</p>`;
+      return `<p class="text-lg py-1">${getTextContent(block.paragraph)}</p>`;
     case 'heading_1':
-      return `<h1 class="text-2xl">${getTextContent(block.heading_1)}</h1>`;
+      return `<h1 class="text-2xl font-semibold py-2">${getTextContent(block.heading_1)}</h1>`;
     case 'heading_2':
-      return `<h2>${getTextContent(block.heading_2)}</h2>`;
+      return `<h2 class="text-xl font-semibold py-2">${getTextContent(block.heading_2)}</h2>`;
     case 'heading_3':
       return `<h3>${getTextContent(block.heading_3)}</h3>`;
     case 'numbered_list_item':
       return `<li>${getTextContent(block.numbered_list_item)}</li>`;
     case 'image':
-      return `<img src="${block.image.file.url}" alt="${getTextContent(block.image.caption)}" />`;
+      return `<img src="${block.image.file.url}" alt="${getTextContent(block.image.caption)}" class="my-4" />`;
+    case 'table':
+      return `<table>${getTextContent(block.table)}</table>`;
     default:
       return `<div>${block.type}</div>`;
   }
@@ -38,15 +43,34 @@ function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
 ---
 
 <DefaultLayout>
-  <h1 id="title" id-value={page.id} class="text-3xl font-bold text-center mb-8">{title}</h1>
-  <div class="max-w-[85ch]">
-    {blocks.map(block => (
-      <Fragment key={block.id} set:html={renderBlock(block)} />
-    ))}
+  <div class="flex flex-col justify-center items-center" >
+    <div class="max-w-[85ch]">
+      <h1 id="title" id-value={page.id} class="text-3xl font-bold text-center mb-8">{title}</h1>
+      <div>
+        {blocks.map(block => (
+          <Fragment key={block.id} set:html={renderBlock(block)} />
+        ))}
+      </div>
+    </div>
   </div>
+  <div id="disqus_thread" class="md:mx-16"></div>
+  <script is:inline>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://hasban-blog.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <script id="dsq-count-scr" src="//hasban-blog.disqus.com/count.js" async></script>
 </DefaultLayout>
-<script>
-  import { addViews } from "../../lib/notion";
-  const pageId = document.getElementById('title')!.getAttribute('id-value')
-  addViews(pageId);
-</script>
