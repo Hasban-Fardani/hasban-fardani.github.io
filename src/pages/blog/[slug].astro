@@ -2,6 +2,8 @@
 import type { BlockObjectResponse, PartialBlockObjectResponse } from '@notionhq/client/build/src/api-endpoints';
 import { getPageBySlug, getBlocks, getDatabase } from '../../lib/notion';
 import DefaultLayout from '../../layouts/DefaultLayout.astro';
+import { NotionRenderer } from '@notion-render/client';
+
 
 export async function getStaticPaths() {
   const database = await getDatabase();
@@ -13,13 +15,14 @@ const page = await getPageBySlug(slug);
 const title = page.properties.title.title[0].text.content;
 const blocks = await getBlocks(page.id);
 
+const renderer = new NotionRenderer();
+const html = renderer.render(...blocks);
+
 function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
   const getTextContent = (block) => {
     return block.rich_text && block.rich_text.length > 0 && block.rich_text[0].text ? block.rich_text[0].text.content : '';
   };
 
-  console.log(block)
-  
 
   switch (block.type) {
     case 'paragraph':
@@ -47,9 +50,9 @@ function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
     <div class="max-w-[85ch]">
       <h1 id="title" id-value={page.id} class="text-3xl font-bold text-center mb-8">{title}</h1>
       <div>
-        {blocks.map(block => (
-          <Fragment key={block.id} set:html={renderBlock(block)} />
-        ))}
+        <!-- {blocks.map(block => ( -->
+          <Fragment set:html={html} />
+        <!-- ))} -->
       </div>
     </div>
   </div>
@@ -74,3 +77,8 @@ function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   <script id="dsq-count-scr" src="//hasban-blog.disqus.com/count.js" async></script>
 </DefaultLayout>
+<style>
+  h1, h2, h3, h4, h5, h6, p, img {
+    padding: 8px 0;
+  }
+</style>
