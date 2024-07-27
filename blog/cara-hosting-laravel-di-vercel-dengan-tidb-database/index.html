@@ -1,5 +1,7 @@
 <!DOCTYPE html><html data-theme="mytheme" lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/blog.CiNRp6ro.css">
-<link rel="stylesheet" href="/_astro/index.Bc6x8NHU.css"></head> <body class="bg-primary text-white min-h-screen"> <header> <div class="navbar md:px-16"> <div class="flex-1"> <a class="btn btn-ghost text-xl" href="/"> <img src="/hf-logo-light.png" alt="Hasban Fardani Logo" width="32" height="32" class="rounded-full">
+<link rel="stylesheet" href="/_astro/index.Bc6x8NHU.css">
+<style>h1[data-astro-cid-4sn4zg3r],h2[data-astro-cid-4sn4zg3r],h3[data-astro-cid-4sn4zg3r],h4[data-astro-cid-4sn4zg3r],h5[data-astro-cid-4sn4zg3r],h6[data-astro-cid-4sn4zg3r],p[data-astro-cid-4sn4zg3r],img[data-astro-cid-4sn4zg3r]{padding:8px 0}
+</style></head> <body class="bg-primary text-white min-h-screen"> <header> <div class="navbar md:px-16"> <div class="flex-1"> <a class="btn btn-ghost text-xl" href="/"> <img src="/hf-logo-light.png" alt="Hasban Fardani Logo" width="32" height="32" class="rounded-full">
 Hasban Fardani
 </a> </div> <div class="flex-none"> <ul class="menu menu-horizontal px-1 hidden md:flex"> <li> <a href="/"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6"> <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"></path> <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"></path> </svg>
 Home
@@ -12,7 +14,251 @@ Home
 Projects
 </a> </li> <li> <a href="/blog"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6"> <path fill-rule="evenodd" d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 0 0 3 3h15a3 3 0 0 1-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125ZM12 9.75a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5H12Zm-.75-2.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75ZM6 12.75a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5H6Zm-.75 3.75a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75ZM6 6.75a.75.75 0 0 0-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 0 0 .75-.75v-3A.75.75 0 0 0 9 6.75H6Z" clip-rule="evenodd"></path> <path d="M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 0 1-3 0V6.75Z"></path> </svg>
 blog
-</a> </li> </ul> </details> </div> </div> </header> <main class="md:px-6 px-3">  <div class="flex flex-col justify-center items-center"> <div class="max-w-[85ch]"> <h1 id="title" id-value="366aa449-6159-4a51-ac43-700430b50133" class="text-3xl font-bold text-center mb-8">Cara Menghosting Laravel di Vercel dengan TiDB sebagai database SQL</h1> <div> <p class="text-lg py-1">Assalammualaikum gaes,</p><p class="text-lg py-1">Pernah kepikiran ga, gimana caranya kita bisa hosting aplikasi laravel kita secara gratis dengan fitur database? Kalau pun ada biasanya kapasitasnya terbatas dan tidak ada integrasi dengan github…</p><p class="text-lg py-1">Nahh pas aku browsing browsing ternyata laravel bisa di hosting menggunakan vercel, namun karnena sifatnya yang serverless kita perlu beberapa konfigurasi, dan ada beberapa kekurangan seperti tidak bisa write atau upload file karena penyimpananya bersifat sementara.</p><h1 class="text-2xl font-semibold py-2">Cara Menggunakan TIDB di Laravel</h1><p class="text-lg py-1">📒 sebelum itu pastikan kamu telah memiliki akun github dan vercel ya…</p><h2 class="text-xl font-semibold py-2">1️⃣ Buat project laravel</h2><p class="text-lg py-1">buka terminal lalu ketikan perintah berikut</p><div>code</div><p class="text-lg py-1">setelah itu buka folder </p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/79bc9b7b-8e25-4667-b400-1010a0de7fe2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=3d92769a17415178ff7b245dde3225ff947ba1da0b9b8aaef5d55897c98001d6&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><h2 class="text-xl font-semibold py-2">2️⃣ Buat Cluster dan Database </h2><li>Klik </li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/ad825775-6bdf-42eb-a70e-0b4e5c0c43f8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=38b90bd8c6da8f616b7511f4bdaecfd65612ed5363f031ec08bd3a63971551cc&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>Ubah nama cluster jika diinginkan.</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/7dea6d6e-63c6-4bdc-80a6-25aeb0423452/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=ac17c8c48b5efcfa40652605958c00f1d39cdef8a844e358cbb474e4160542e9&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>Lalu klik create</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/c73ba8ae-dc98-4d00-80fc-76d41395400b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=0cff35dbe5990c1e20ec19f2381b77767772f44735ef3e5a554c08cf7498e5ad&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><p class="text-lg py-1">Lalu kita akan diarahkan ke halaman seperti ini</p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/9f6486d1-59dc-4e46-999b-131eb8c35739/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=ab89a2fbf13cb7656c85bd70c832223cf2a19a2193bc522a00215650b6c5a988&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><p class="text-lg py-1">Horee kita sudah berhasil membuat cluster untuk database kita ✨</p><p class="text-lg py-1">Setelah itu kita buat database baru untuk project laravel kita</p><li>klik chat2query yang ada disebelah kiri</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/f197151d-d3f9-493c-97c8-71cf2a52f1fc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=9d1db1ec3ce8c678acf7ed5aa3bcab56bc08157cd20390770257b25bc133d256&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>setelah itu ketikan perintah berikut lalu klik run</li><div>code</div><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/ae4a641b-967e-4710-a33c-0d8e94a1d624/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=de41bfcca5c45442847670d5d0d268868026f653c69ee6189d39d2cb303ea312&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>Maka hasilnya akan muncul database laravel_vercel </li><p class="text-lg py-1"></p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/9c475ea9-e2fc-48f2-9571-91d2290c4339/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=923ef1be71ebf0c7816e3989bd2893555fcb28b1bb8c9282b03406446530361a&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><h2 class="text-xl font-semibold py-2">3️⃣ Menghubungkan Laravel dengan database</h2><p class="text-lg py-1">📒 Sebelumnya pastikan kamu sudah kembali ke halaman overview ya</p><li>Klik connect di sebelah pojok kanan atas lalu akan muncul popup seperti berikut</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/5a710e39-bcfa-42f2-82cf-453ec72a00bc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=8a6e91b2f819250d7108503bc77d8498b645a6ddc1120aa2554841dec614a5fd&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>Klik generate password (jika belum)</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/02f47991-edb0-4048-9065-e4c689f0d0ac/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=a7353c8bdd6123b8030ae3df0d16081df98b274c0c1c1c0222f16a61d7e79ec6&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>setelah itu ganti database yang awalnya test menjadi nama database yang telah kita buat yakni </li><li>Ganti opsi Connect With menjadi .env lalu klik icon copy didalam box</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/e3e1f0c0-a9c1-4b1e-a560-57d7ab414dc7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=7f49d27e84d758c62ba91902ce8852dc8f6d7b3717fc03cfd695ff03e29eae32&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>Oiya kamu juga perlu untuk mendownload CA cert untuk mengamankan koneksi ke tidb, hal iin wajib, jika tidak maka akan terjadi error</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/6d0e3a1e-4f81-40db-b845-d974105831fa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=70ee965cad7af31995c298e0dbf70786d00f2e571b86f769db69d17f2ad68833&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><p class="text-lg py-1">Setelah mendowload simpan dalam root project</p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/aa913f38-f3cc-4b7b-b8e6-87490b5d56dd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=0dc74dcabcde9e0ae14a541ee9771b2e9980d5ec46e66c787573a92455ae15d1&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>Pastekan kedalam file .env di project laravel, dan hasilnya kurang lebih seperti ini</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/03d50f58-dc2e-4b1b-8d37-11cf7886d310/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=5bdc2a80a82ae696c13a4520407dca712ffd201466f01eeca14d35d8a2af9420&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>tambahkan config berikut untuk mengkonfigurasi CA cert yang telah kita download ke laravel</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/31e42161-53ad-49b6-8039-3fa6f6c4d873/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=98c9ddbcb2097932b5a99ce6296b34f64102097a994114a12efc9ecbe152ec0f&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><p class="text-lg py-1">📒 Note: path harus berupa absolute path dan bukan relative path, karena relative path tidak akan bekerja.</p><p class="text-lg py-1">untuk mendapatkan absolute path dalam vscode anda bisa mengklik kanan pada file tersebut lalu klik copy</p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/c57d6393-3845-4cfc-a0d0-dac92bf57f8c/bcd43deb-d567-40d0-9aa9-399c57cfed98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=7a2edbee0e5842502f907469ea8e710080749306ece6792b0b45b8035e8e3b30&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><h2 class="text-xl font-semibold py-2">4️⃣ Testing koneksi</h2><p class="text-lg py-1">setelah menkonfigurasi project saatnya kita test apakah sudah benar benar terhubung ke tidb atau belum. Caranya cukup mudah, ikuti langkah berikut</p><li>Buat seeder untuk table user dengan membuka file </li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/b20761ff-8364-4cc3-986a-1e8a27e38c8a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=33a716fcf9421ce14ce9d69ed7f7687d3b843a34fe7cb8deace40066552134d4&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>save file DatabaseSeeder.php lalu jalankan migrasi dan seed bersamaan dengan perintah</li><li>jika berhasil maka artinya koneksi ke database sudah berhasil</li><h2 class="text-xl font-semibold py-2">5️⃣ Konfigurasi untuk deploy di vercel</h2><p class="text-lg py-1">setelah kita pastikan aplikasi berjalan lancar di lokal saatnya kita mendeploy aplikasi tersebut agar bisa diakses oleh semua orang.</p><li>Buat file </li><div>code</div><li>Buat file </li><li>Buat file </li><div>code</div><p class="text-lg py-1">kamu tidak perlu merubah apapun dari kode diatas</p><p class="text-lg py-1">Yay untuk konfigurasi selesai, saatnya kita deploy ke vercel</p><h2 class="text-xl font-semibold py-2">6️⃣ Deploy project ke vercel</h2><li>buat repository github</li><li>push project kalian ke github</li><li>buka vercel</li><li>buat project dan masukkan env APP_KEY dengan value APP_KEY yang ada file .env project kita, masukkan juga seluruh env terkait database</li><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/42c93051-35ca-49a7-ae4d-a241084ffc3f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=747aa69ae4f2fc3a6b9d1f7e533311e9d54e754bb9d27b152ed7ea9ae3839ff1&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/1f009fba-f60e-4330-bf50-ded39c9a8148/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T153858Z&X-Amz-Expires=3600&X-Amz-Signature=c72597fb4e05e1bf91b8275307f1bb002ace0e81827ce738257c0a5b874285bf&X-Amz-SignedHeaders=host&x-id=GetObject" alt="" class="my-4" /><li>Klik deploy, dan yay project laravel kita sudah berhasil dideploy</li><h1 class="text-2xl font-semibold py-2">Beberapa error yang sering di temukan</h1><li>APP_KEY error</li><li>Project not found</li><li>build error</li><li>max function reached</li> </div> </div> </div> <div id="disqus_thread" class="md:mx-16"></div> <script>
+</a> </li> </ul> </details> </div> </div> </header> <main class="md:px-6 px-3">  <div class="flex flex-col justify-center items-center" data-astro-cid-4sn4zg3r> <div class="max-w-[85ch]" data-astro-cid-4sn4zg3r> <h1 id="title" id-value="366aa449-6159-4a51-ac43-700430b50133" class="text-3xl font-bold text-center mb-8" data-astro-cid-4sn4zg3r>Cara Menghosting Laravel di Vercel dengan TiDB sebagai database SQL</h1> <div data-astro-cid-4sn4zg3r> <!-- {blocks.map(block => ( --> 
+            <p>
+                Assalammualaikum gaes,
+            </p>
+        
+            <p>
+                Pernah kepikiran ga, gimana caranya kita bisa hosting aplikasi laravel kita secara gratis dengan fitur database? Kalau pun ada biasanya kapasitasnya terbatas dan tidak ada integrasi dengan github…
+            </p>
+        
+            <p>
+                Nahh pas aku browsing browsing ternyata laravel bisa di hosting menggunakan vercel, namun karnena sifatnya yang serverless kita perlu beberapa konfigurasi, dan ada beberapa kekurangan seperti tidak bisa write atau upload file karena penyimpananya bersifat sementara.
+            </p>
+        
+            <h1 class="notion-heading_1 notion-color-default">
+                Cara Menggunakan TIDB di Laravel
+            </h1>
+        
+            <p>
+                📒 sebelum itu pastikan kamu telah memiliki akun github dan vercel ya…
+            </p>
+        
+            <h2 class="notion-heading_2 notion-color-default">
+                1️⃣ Buat project laravel
+            </h2>
+        
+            <p>
+                buka terminal lalu ketikan perintah berikut
+            </p>
+        
+            <div class="notion-code">
+                <pre><code class="language-bash">composer create-project laravel/laravel laravel-vercel-tidb</code></pre>
+                
+            </div>
+        
+            <p>
+                setelah itu buka folder <code class="notion-text-code">laravel-vercel-tidb</code> dengan code editor favorit kalian, namun pada tutoria ini saya akan menggunakan vs code 
+            </p>
+        
+            <figure class="notion-image">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/79bc9b7b-8e25-4667-b400-1010a0de7fe2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T233348Z&X-Amz-Expires=3600&X-Amz-Signature=31b870c9655de2a608eccf46bd45eab4420f950632650d91458d738da0384c15&X-Amz-SignedHeaders=host&x-id=GetObject" />
+                
+            </figure>
+        
+            <h2 class="notion-heading_2 notion-color-default">
+                2️⃣ Buat Cluster dan Database 
+            </h2>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Klik <span class="notion-color-blue">Create Cluster. </span>
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Ubah nama cluster jika diinginkan.
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Lalu klik create
+            </li>
+        </ol>
+            <p>
+                Lalu kita akan diarahkan ke halaman seperti ini
+            </p>
+        
+            <figure class="notion-image">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/9f6486d1-59dc-4e46-999b-131eb8c35739/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T233348Z&X-Amz-Expires=3600&X-Amz-Signature=125037e3d31b7ad6f1558f32445de3f1f252029c882ca9684cd61893ae460daf&X-Amz-SignedHeaders=host&x-id=GetObject" />
+                <legend>Halaman Overview cluster</legend>
+            </figure>
+        
+            <p>
+                Horee kita sudah berhasil membuat cluster untuk database kita ✨
+            </p>
+        
+            <p>
+                Setelah itu kita buat database baru untuk project laravel kita
+            </p>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                klik chat2query yang ada disebelah kiri
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                setelah itu ketikan perintah berikut lalu klik run
+            </li>
+        </ol>
+            <figure class="notion-image">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/ae4a641b-967e-4710-a33c-0d8e94a1d624/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T233348Z&X-Amz-Expires=3600&X-Amz-Signature=4760a0088ff0314d9551f1999a706afdaef317ff8e94a8e9579678689f4912ed&X-Amz-SignedHeaders=host&x-id=GetObject" />
+                
+            </figure>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Maka hasilnya akan muncul database laravel_vercel 
+            </li>
+        </ol>
+            <figure class="notion-image">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/9c475ea9-e2fc-48f2-9571-91d2290c4339/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T233348Z&X-Amz-Expires=3600&X-Amz-Signature=ff2bff1aa0d2ac16e186120209f5599c3ac2062c61fdc25b32fd526a8069aee1&X-Amz-SignedHeaders=host&x-id=GetObject" />
+                
+            </figure>
+        
+            <h2 class="notion-heading_2 notion-color-default">
+                3️⃣ Menghubungkan Laravel dengan database
+            </h2>
+        
+            <p>
+                📒 Sebelumnya pastikan kamu sudah kembali ke halaman overview ya
+            </p>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Klik connect di sebelah pojok kanan atas lalu akan muncul popup seperti berikut
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Klik generate password (jika belum)
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                setelah itu ganti database yang awalnya test menjadi nama database yang telah kita buat yakni <code class="notion-text-code">laravel_vercel</code>
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                Ganti opsi Connect With menjadi .env lalu klik icon copy didalam box
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Oiya kamu juga perlu untuk mendownload CA cert untuk mengamankan koneksi ke tidb, hal iin wajib, jika tidak maka akan terjadi error
+            </li>
+        </ol>
+            <p>
+                Setelah mendowload simpan dalam root project
+            </p>
+        
+            <figure class="notion-image">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/aa913f38-f3cc-4b7b-b8e6-87490b5d56dd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T233348Z&X-Amz-Expires=3600&X-Amz-Signature=5e7eb75158d5972bc5a42b9290130b79af9574a0dcff14090b0aa64d5efbd8e5&X-Amz-SignedHeaders=host&x-id=GetObject" />
+                
+            </figure>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Pastekan kedalam file .env di project laravel, dan hasilnya kurang lebih seperti ini
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                tambahkan config berikut untuk mengkonfigurasi CA cert yang telah kita download ke laravel
+            </li>
+        </ol>
+            <p>
+                📒 Note: path harus berupa absolute path dan bukan relative path, karena relative path tidak akan bekerja.
+            </p>
+        
+            <p>
+                untuk mendapatkan absolute path dalam vscode anda bisa mengklik kanan pada file tersebut lalu klik copy
+            </p>
+        
+            <figure class="notion-image">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/c57d6393-3845-4cfc-a0d0-dac92bf57f8c/bcd43deb-d567-40d0-9aa9-399c57cfed98.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T233348Z&X-Amz-Expires=3600&X-Amz-Signature=45c2ce234fdca40ba477735b63fed1753a22972bfae3ab89256a1284715617c9&X-Amz-SignedHeaders=host&x-id=GetObject" />
+                
+            </figure>
+        
+            <h2 class="notion-heading_2 notion-color-default">
+                4️⃣ Testing koneksi
+            </h2>
+        
+            <p>
+                setelah menkonfigurasi project saatnya kita test apakah sudah benar benar terhubung ke tidb atau belum. Caranya cukup mudah, ikuti langkah berikut
+            </p>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Buat seeder untuk table user dengan membuka file <code class="notion-text-code">database/seeders/DatabaseSeeder.php</code> lalu uncomment bagian dibawah ini
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                save file DatabaseSeeder.php lalu jalankan migrasi dan seed bersamaan dengan perintah
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                jika berhasil maka artinya koneksi ke database sudah berhasil
+            </li>
+        </ol>
+            <p>
+                setelah kita pastikan aplikasi berjalan lancar di lokal saatnya kita mendeploy aplikasi tersebut agar bisa diakses oleh semua orang.
+            </p>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Buat file <code class="notion-text-code">api/inde.php</code> lalu ketikan kode berikut
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Buat file <code class="notion-text-code">.vercelignore</code> lalu tuliskan folder vendor dan node_modules didalamnya
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                Buat file <code class="notion-text-code">vercel.json</code> lalu masukkan kode berikut
+            </li>
+        </ol>
+            <p>
+                kamu tidak perlu merubah apapun dari kode diatas
+            </p>
+        
+            <p>
+                Yay untuk konfigurasi selesai, saatnya kita deploy ke vercel
+            </p>
+        
+            <h2 class="notion-heading_2 notion-color-default">
+                6️⃣ Deploy project ke vercel
+            </h2>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                buat repository github
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                push project kalian ke github
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                buka vercel
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                buat project dan masukkan env APP_KEY dengan value APP_KEY yang ada file .env project kita, masukkan juga seluruh env terkait database
+            </li>
+        </ol>
+            <figure class="notion-image">
+                <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/9cdf2796-d50d-44cb-8b74-cc86c9b35522/1f009fba-f60e-4330-bf50-ded39c9a8148/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240727%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240727T233348Z&X-Amz-Expires=3600&X-Amz-Signature=abcc47f05a8d7ce2f69b00ec5497b9bce3e0a5d631bdc5e06d927f3191c54b59&X-Amz-SignedHeaders=host&x-id=GetObject" />
+                
+            </figure>
+        <ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                Klik deploy, dan yay project laravel kita sudah berhasil dideploy
+            </li>
+        </ol><ol class="notion-numbered_list">
+            <li class="notion-numbered_list_item notion-color-default">
+                APP_KEY error
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                Project not found
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                build error
+            </li>
+        
+            <li class="notion-numbered_list_item notion-color-default">
+                max function reached
+            </li>
+        </ol> <!-- ))} --> </div> </div> </div> <div id="disqus_thread" class="md:mx-16" data-astro-cid-4sn4zg3r></div> <script>
       /**
       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
@@ -28,4 +274,4 @@ blog
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
       })();
-  </script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> <script id="dsq-count-scr" src="//hasban-blog.disqus.com/count.js" async></script>  </main> </body></html>
+  </script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" data-astro-cid-4sn4zg3r>comments powered by Disqus.</a></noscript> <script id="dsq-count-scr" src="//hasban-blog.disqus.com/count.js" async></script>  </main> </body></html> 
