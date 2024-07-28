@@ -14,7 +14,6 @@
     "@astrojs/tailwind": "^5.1.0",
     "@astrojs/vue": "^4.5.0",
     "@heroicons/react": "^2.1.4",
-    "@notion-render/client": "^0.0.2",
     "@notionhq/client": "^2.2.15",
     "@tailwindcss/typography": "^0.5.13",
     "astro": "4.12.2",

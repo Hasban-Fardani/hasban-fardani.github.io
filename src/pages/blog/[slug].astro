@@ -1,8 +1,6 @@
 ---
 import { getPageBySlug, getBlocks, getDatabase } from '../../lib/notion';
 import DefaultLayout from '../../layouts/DefaultLayout.astro';
-import { NotionRenderer } from '@notion-render/client';
-
 
 export async function getStaticPaths() {
   const database = await getDatabase();
@@ -14,8 +12,31 @@ const page = await getPageBySlug(slug);
 const title = page.properties.title.title[0].text.content;
 const blocks = await getBlocks(page.id);
 
-const renderer = new NotionRenderer();
-const html = renderer.render(...blocks);
+function renderBlock(block: PartialBlockObjectResponse | BlockObjectResponse) {
+  const getTextContent = (block) => {
+    return block.rich_text && block.rich_text.length > 0 && block.rich_text[0].text ? block.rich_text[0].text.content : '';
+  };
+
+
+  switch (block.type) {
+    case 'paragraph':
+      return `<p class="text-lg py-1">${getTextContent(block.paragraph)}</p>`;
+    case 'heading_1':
+      return `<h1 class="text-2xl font-semibold py-2">${getTextContent(block.heading_1)}</h1>`;
+    case 'heading_2':
+      return `<h2 class="text-xl font-semibold py-2">${getTextContent(block.heading_2)}</h2>`;
+    case 'heading_3':
+      return `<h3>${getTextContent(block.heading_3)}</h3>`;
+    case 'numbered_list_item':
+      return `<li>${getTextContent(block.numbered_list_item)}</li>`;
+    case 'image':
+      return `<img src="${block.image.file.url}" alt="${getTextContent(block.image.caption)}" class="my-4" />`;
+    case 'table':
+      return `<table>${getTextContent(block.table)}</table>`;
+    default:
+      return `<div>${block.type}</div>`;
+  }
+}
 ---
 
 <DefaultLayout>
@@ -23,9 +44,9 @@ const html = renderer.render(...blocks);
     <div class="max-w-[85ch]">
       <h1 id="title" id-value={page.id} class="text-3xl font-bold text-center mb-8">{title}</h1>
       <div>
-        <!-- {blocks.map(block => ( -->
-          <Fragment set:html={html} />
-        <!-- ))} -->
+        {blocks.map(block => (
+          <Fragment key={block.id} set:html={renderBlock(block)} />
+        ))}
       </div>
     </div>
   </div>
@@ -52,6 +73,6 @@ const html = renderer.render(...blocks);
 </DefaultLayout>
 <style is:global>
   h1, h2, h3, h4, h5, h6, p, img {
-    padding: 4px 0;
+    padding: 3px 0;
   }
 </style>
